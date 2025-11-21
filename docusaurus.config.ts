@@ -1,0 +1,165 @@
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+
+/**
+ * Mehmiro Documentation Hub configuration.
+ * This file runs in Node.js; avoid browser APIs or JSX here.
+ */
+const config: Config = {
+  title: 'Mehmiro Documentation Hub',
+  tagline: 'Centralized architecture, standards, and BDD/TDD workflows',
+  favicon: 'img/favicon.ico',
+
+  future: {
+    v4: true
+  },
+
+  url: 'https://mehmiro-docs.example.com',
+  baseUrl: '/',
+
+  organizationName: 'mehmiro',
+  projectName: 'mehmiro-docs',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'ignore'
+    }
+  },
+  onBrokenLinks: 'ignore',
+  onBrokenAnchors: 'ignore',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en']
+  },
+
+  presets: [
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          routeBasePath: '/docs',
+          editUrl: 'https://github.com/gentilmente/mehimro-docs/tree/main/docs-portal',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true
+        },
+        blog: false,
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '/'
+        },
+        theme: {}
+      } satisfies Preset.Options
+    ]
+  ],
+
+  themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true,
+      defaultMode: 'light',
+      disableSwitch: false
+    },
+    navbar: {
+      title: 'Mehmiro Docs',
+      logo: {
+        alt: 'Mehmiro Logo',
+        src: 'img/logo.svg'
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'mehmiroSidebar',
+          position: 'left',
+          label: 'Documentation'
+        },
+        {
+          type: 'doc',
+          docId: 'processes/feature-lifecycle',
+          position: 'left',
+          label: 'Feature Lifecycle'
+        },
+        {
+          type: 'doc',
+          docId: 'standards/testing-strategy',
+          position: 'left',
+          label: 'Testing Strategy'
+        },
+        {
+          type: 'doc',
+          docId: 'features/feature-catalog',
+          position: 'left',
+          label: 'Features'
+        },
+        {
+          href: 'https://github.com/gentilmente/mehimro-docs',
+          label: 'GitHub',
+          position: 'right'
+        }
+      ]
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Sections',
+          items: [
+            { label: 'Foundations', to: '/docs/foundations/project-overview' },
+            {
+              label: 'Architecture',
+              to: '/docs/architecture/system-architecture'
+            },
+            { label: 'Standards', to: '/docs/standards/coding-standards' },
+            { label: 'Processes', to: '/docs/processes/feature-lifecycle' }
+          ]
+        },
+        {
+          title: 'Features',
+          items: [
+            {
+              label: 'Feature Catalog',
+              to: '/docs/features/feature-catalog'
+            },
+            {
+              label: 'Student Monitoring System',
+              to: '/docs/features/student-monitoring-system/student-monitoring-system-overview'
+            },
+            {
+              label: 'Student Assessment Insights',
+              to: '/docs/features/student-assessment-insights/student-assessment-insights-overview'
+            }
+          ]
+        },
+        {
+          title: 'External',
+          items: [
+            {
+              label: 'Storybook',
+              href: 'https://mehmiro-storybook.vercel.app'
+            },
+            { label: 'GitHub', href: 'https://github.com/gentilmente/mehimro-docs' }
+          ]
+        }
+      ],
+      copyright: `© ${new Date().getFullYear()} Mehmiro. Built with ❤️ for educators.`
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+      additionalLanguages: ['typescript', 'javascript', 'json', 'bash', 'sql']
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true
+      }
+    },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 4
+    }
+  } satisfies Preset.ThemeConfig
+};
+
+export default config;
