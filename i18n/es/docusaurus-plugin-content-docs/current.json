@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.userSidebar.category.Getting Started": {
+    "message": "Primeros Pasos",
+    "description": "The label for category 'Getting Started' in sidebar 'userSidebar'"
+  },
+  "sidebar.userSidebar.category.Tutorials": {
+    "message": "Tutoriales",
+    "description": "The label for category 'Tutorials' in sidebar 'userSidebar'"
+  },
+  "sidebar.userSidebar.category.Feature Guides": {
+    "message": "Guías de Características",
+    "description": "The label for category 'Feature Guides' in sidebar 'userSidebar'"
+  },
+  "sidebar.devSidebar.category.Introduction": {
+    "message": "Introducción",
+    "description": "The label for category 'Introduction' in sidebar 'devSidebar'"
+  },
+  "sidebar.devSidebar.category.Architecture": {
+    "message": "Arquitectura",
+    "description": "The label for category 'Architecture' in sidebar 'devSidebar'"
+  },
+  "sidebar.devSidebar.category.Standards": {
+    "message": "Estándares",
+    "description": "The label for category 'Standards' in sidebar 'devSidebar'"
+  },
+  "sidebar.devSidebar.category.Development Processes": {
+    "message": "Procesos de Desarrollo",
+    "description": "The label for category 'Development Processes' in sidebar 'devSidebar'"
+  },
+  "sidebar.devSidebar.category.Feature Documentation": {
+    "message": "Documentación de Características",
+    "description": "The label for category 'Feature Documentation' in sidebar 'devSidebar'"
+  },
+  "sidebar.devSidebar.category.Student Assessment Insights": {
+    "message": "Perspectivas de Evaluación Estudiantil",
+    "description": "The label for category 'Student Assessment Insights' in sidebar 'devSidebar'"
+  },
+  "sidebar.devSidebar.category.Student Monitoring System": {
+    "message": "Sistema de Monitoreo Estudiantil",
+    "description": "The label for category 'Student Monitoring System' in sidebar 'devSidebar'"
+  },
+  "sidebar.devSidebar.category.Foundation Documents": {
+    "message": "Documentos Fundamentales",
+    "description": "The label for category 'Foundation Documents' in sidebar 'devSidebar'"
+  },
+  "sidebar.researchSidebar.category.Introduction": {
+    "message": "Introducción",
+    "description": "The label for category 'Introduction' in sidebar 'researchSidebar'"
+  },
+  "sidebar.researchSidebar.category.Research Methodology": {
+    "message": "Metodología de Investigación",
+    "description": "The label for category 'Research Methodology' in sidebar 'researchSidebar'"
+  },
+  "sidebar.researchSidebar.category.Research Papers": {
+    "message": "Artículos de Investigación",
+    "description": "The label for category 'Research Papers' in sidebar 'researchSidebar'"
+  }
+}

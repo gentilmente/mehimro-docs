@@ -30,8 +30,18 @@ const config: Config = {
   onBrokenAnchors: 'ignore',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en']
+    defaultLocale: 'es',
+    locales: ['es', 'en'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      es: {
+        label: 'Español',
+        direction: 'ltr',
+      },
+    },
   },
 
   presets: [

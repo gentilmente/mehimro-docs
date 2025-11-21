@@ -12,7 +12,7 @@ const sidebars: SidebarsConfig = {
       label: 'Getting Started',
       collapsed: false,
       items: [
-        'user/intro',
+        'user/user-intro',
         'user/getting-started/teacher-setup',
         'user/getting-started/student-access'
       ]
@@ -42,7 +42,8 @@ const sidebars: SidebarsConfig = {
       label: 'Introduction',
       collapsed: false,
       items: [
-        'developer/intro'
+        'developer/developer-intro',
+        'developer/contributing-to-mehmiro'
       ]
     },
     {
@@ -122,7 +123,7 @@ const sidebars: SidebarsConfig = {
       label: 'Introduction',
       collapsed: false,
       items: [
-        'research/intro'
+        'research/research-intro'
       ]
     },
     {

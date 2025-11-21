@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Mehmiro Research & Updates",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Latest research findings, feature updates, and educational insights from the Mehmiro team",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Recent Posts",
+    "description": "The label for the left sidebar"
+  }
+}

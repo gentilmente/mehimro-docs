@@ -1,0 +1,54 @@
+{
+  "link.title.Sections": {
+    "message": "Sections",
+    "description": "The title of the footer links column with title=Sections in the footer"
+  },
+  "link.title.Features": {
+    "message": "Features",
+    "description": "The title of the footer links column with title=Features in the footer"
+  },
+  "link.title.External": {
+    "message": "External",
+    "description": "The title of the footer links column with title=External in the footer"
+  },
+  "link.item.label.Foundations": {
+    "message": "Foundations",
+    "description": "The label of footer link with label=Foundations linking to /docs/foundations/project-overview"
+  },
+  "link.item.label.Architecture": {
+    "message": "Architecture",
+    "description": "The label of footer link with label=Architecture linking to /docs/architecture/system-architecture"
+  },
+  "link.item.label.Standards": {
+    "message": "Standards",
+    "description": "The label of footer link with label=Standards linking to /docs/standards/coding-standards"
+  },
+  "link.item.label.Processes": {
+    "message": "Processes",
+    "description": "The label of footer link with label=Processes linking to /docs/processes/feature-lifecycle"
+  },
+  "link.item.label.Feature Catalog": {
+    "message": "Feature Catalog",
+    "description": "The label of footer link with label=Feature Catalog linking to /docs/features/feature-catalog"
+  },
+  "link.item.label.Student Monitoring System": {
+    "message": "Student Monitoring System",
+    "description": "The label of footer link with label=Student Monitoring System linking to /docs/features/student-monitoring-system/student-monitoring-system-overview"
+  },
+  "link.item.label.Student Assessment Insights": {
+    "message": "Student Assessment Insights",
+    "description": "The label of footer link with label=Student Assessment Insights linking to /docs/features/student-assessment-insights/student-assessment-insights-overview"
+  },
+  "link.item.label.Storybook": {
+    "message": "Storybook",
+    "description": "The label of footer link with label=Storybook linking to https://mehmiro-storybook.vercel.app"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/gentilmente/mehimro-docs"
+  },
+  "copyright": {
+    "message": "© 2025 Mehmiro. Built with ❤️ for educators.",
+    "description": "The footer copyright"
+  }
+}
