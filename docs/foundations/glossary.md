@@ -1,61 +1,61 @@
 ---
 id: glossary
-title: Glossary
-sidebar_label: Glossary
+title: Glosario
+sidebar_label: Glosario
 ---
 
-# Glossary
+# Glosario
 
-This glossary defines key terms and concepts used throughout the Mehmiro documentation.
+Este glosario define términos y conceptos clave utilizados a través de la documentación de Mehmiro.
 
 ## A
 
-**Assessment**: An evaluation of student performance, typically consisting of multiple variables and metrics.
+**Evaluación**: Una evaluación del rendimiento estudiantil, típicamente consistiendo en múltiples variables y métricas.
 
-**AI Assistant**: An artificial intelligence-powered tool that provides insights and recommendations based on student data.
-
-## B
-
-**BDD (Behavior-Driven Development)**: A software development approach that emphasizes collaboration between developers, QA, and business stakeholders through the use of natural language scenarios.
-
-## C
-
-**Class**: A group of students managed by a teacher within the Mehmiro platform.
+**Asistente de IA**: Una herramienta impulsada por inteligencia artificial que proporciona perspectivas y recomendaciones basado en datos estudiantiles.
 
 ## D
 
-**Dashboard**: The main interface providing an overview of student data, assessments, and insights.
+**BDD (Desarrollo Impulsado por Comportamiento)**: Un enfoque de desarrollo de software que enfatiza la colaboración entre desarrolladores, QA y partes interesadas empresariales a través del uso de escenarios en lenguaje natural.
 
-## F
+## C
 
-**Feature**: A distinct functionality or capability within the Mehmiro platform.
-
-## L
-
-**Lesson**: Educational content or activities assigned to students.
-
-## M
-
-**Mehmiro**: The name of the educational platform described in this documentation.
-
-## O
-
-**Onboarding**: The process of setting up a new teacher and their class within the platform.
+**Clase**: Un grupo de estudiantes gestionados por un maestro dentro de la plataforma Mehmiro.
 
 ## P
 
-**Persona**: A detailed description of a user type, including their goals, behaviors, and characteristics.
+**Panel de Control**: La interfaz principal que proporciona una visión general de datos estudiantiles, evaluaciones y perspectivas.
 
-## S
+## C
 
-**Student**: An individual learner within the educational platform.
+**Característica**: Una funcionalidad o capacidad distintiva dentro de la plataforma Mehmiro.
 
-**Supabase**: The backend-as-a-service platform used for data storage and authentication.
+## L
 
-## T
+**Lección**: Contenido educativo o actividades asignadas a estudiantes.
 
-**Teacher**: An educator who manages classes and student assessments within the platform.
+## M
+
+**Mehmiro**: El nombre de la plataforma educativa descrita en esta documentación.
+
+## I
+
+**Incorporación**: El proceso de configurar un nuevo maestro y su clase dentro de la plataforma.
+
+## P
+
+**Persona**: Una descripción detallada de un tipo de usuario, incluyendo sus metas, comportamientos y características.
+
+## E
+
+**Estudiante**: Un individuo aprendiz dentro de la plataforma educativa.
+
+**Supabase**: La plataforma backend-como-servicio utilizada para almacenamiento de datos y autenticación.
+
+## M
+
+**Maestro**: Un educador que gestiona clases y evaluaciones estudiantiles dentro de la plataforma.
 
 ## V
 
-**Variable**: A measurable attribute or metric used in student assessments (e.g., participation, understanding, engagement).
+**Variable**: Un atributo o métrica medible utilizado en evaluaciones estudiantiles (ej., participación, comprensión, compromiso).

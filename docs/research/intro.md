@@ -1,108 +1,108 @@
 ---
 id: research-intro
-title: Mehmiro Research Hub
-sidebar_label: Introduction
-description: Academic research, methodology, and pedagogical foundations behind Mehmiro
+title: Centro de Investigación Mehmiro
+sidebar_label: Introducción
+description: Investigación académica, metodología y fundamentos pedagógicos detrás de Mehmiro
 ---
 
-# Mehmiro Research Hub
+# Centro de Investigación Mehmiro
 
-Welcome to the Mehmiro Research Hub, where we explore the scientific foundations, methodologies, and pedagogical principles that guide our educational technology platform.
+Bienvenido al Centro de Investigación Mehmiro, donde exploramos los fundamentos científicos, metodologías y principios pedagógicos que guían nuestra plataforma de tecnología educativa.
 
-## Research Mission
+## Misión de Investigación
 
-Our research focuses on advancing educational technology through evidence-based approaches that improve learning outcomes and support both educators and students in achieving their full potential.
+Nuestra investigación se enfoca en avanzar la tecnología educativa a través de enfoques basados en evidencia que mejoran los resultados de aprendizaje y apoyan tanto a educadores como a estudiantes para alcanzar su máximo potencial.
 
-## Key Research Areas
+## Áreas Clave de Investigación
 
-### 📊 **Learning Analytics & Assessment**
-- Formative feedback mechanisms
-- Student performance prediction models
-- Adaptive learning pathways
-- Data-driven educational interventions
+### 📊 **Analíticas de Aprendizaje y Evaluación**
+- Mecanismos de retroalimentación formativa
+- Modelos de predicción del rendimiento estudiantil
+- Rutas de aprendizaje adaptativas
+- Intervenciones educativas basadas en datos
 
-### 🧠 **Pedagogical Foundations**
-- Constructivist learning theory applications
-- Scaffolding techniques in digital environments
-- Collaborative learning frameworks
-- Student engagement strategies
+### 🧠 **Fundamentos Pedagógicos**
+- Aplicaciones de la teoría constructivista del aprendizaje
+- Técnicas de andamiaje en entornos digitales
+- Marcos de trabajo colaborativo de aprendizaje
+- Estrategias de participación estudiantil
 
-### 🔬 **Educational Technology Research**
-- Human-computer interaction in education
-- Accessibility and inclusive design
-- Privacy-preserving learning analytics
-- Technology adoption in educational settings
+### 🔬 **Investigación en Tecnología Educativa**
+- Interacción humano-computadora en educación
+- Accesibilidad y diseño inclusivo
+- Analíticas de aprendizaje que preservan la privacidad
+- Adopción de tecnología en entornos educativos
 
-### 📈 **Impact Studies**
-- Learning outcome improvements
-- Teacher effectiveness enhancement
-- Student motivation and engagement
-- Long-term educational benefits
+### 📈 **Estudios de Impacto**
+- Mejoras en resultados de aprendizaje
+- Mejora en la efectividad docente
+- Motivación y participación estudiantil
+- Beneficios educativos a largo plazo
 
-## Research Methodology
+## Metodología de Investigación
 
-Our approach combines multiple research methodologies to ensure robust, applicable findings:
+Nuestro enfoque combina múltiples metodologías de investigación para asegurar hallazgos robustos y aplicables:
 
-- **Quantitative Studies**: Large-scale analysis of learning data and outcomes
-- **Qualitative Research**: In-depth exploration of user experiences and teaching practices
-- **Mixed Methods**: Combining numerical data with contextual insights
-- **Longitudinal Studies**: Tracking progress and impact over extended periods
-- **Controlled Experiments**: Testing specific interventions and their effectiveness
+- **Estudios Cuantitativos**: Análisis a gran escala de datos y resultados de aprendizaje
+- **Investigación Cualitativa**: Exploración en profundidad de experiencias de usuario y prácticas de enseñanza
+- **Métodos Mixtos**: Combinando datos numéricos con perspectivas contextuales
+- **Estudios Longitudinales**: Seguimiento del progreso e impacto durante períodos extendidos
+- **Experimentos Controlados**: Pruebas de intervenciones específicas y su efectividad
 
-## Key Research Principles
+## Principios Clave de Investigación
 
-1. **Evidence-Based Development**: All features are grounded in educational research
-2. **Ethical Data Use**: Privacy and student welfare are paramount
-3. **Inclusive Research**: Diverse perspectives inform our understanding
-4. **Open Science**: Sharing findings to benefit the broader educational community
-5. **Continuous Improvement**: Regular evaluation and refinement based on new research
+1. **Desarrollo Basado en Evidencia**: Todas las características se fundamentan en investigación educativa
+2. **Uso Ético de Datos**: La privacidad y el bienestar estudiantil son primordiales
+3. **Investigación Inclusiva**: Diversas perspectivas informan nuestra comprensión
+4. **Ciencia Abierta**: Compartir hallazgos para beneficiar a la comunidad educativa más amplia
+5. **Mejora Continua**: Evaluación regular y refinamiento basado en nueva investigación
 
-## Current Research Projects
+## Proyectos de Investigación Actuales
 
-### Active Studies
-- **Formative Feedback in Digital Environments** - Understanding how real-time feedback impacts learning
-- **AI-Assisted Learning Analytics** - Exploring machine learning applications in education
-- **Equity in Educational Technology** - Ensuring all students benefit from digital tools
+### Estudios Activos
+- **Retroalimentación Formativa en Entornos Digitales** - Entender cómo la retroalimentación en tiempo real impacta el aprendizaje
+- **Analíticas de Aprendizaje Asistidas por IA** - Explorar aplicaciones de aprendizaje automático en educación
+- **Equidad en Tecnología Educativa** - Asegurar que todos los estudiantes se beneficien de herramientas digitales
 
-### Recent Publications
-- [The Impact of Real-Time Assessment on Student Engagement](/docs/research/papers/realtime-assessment-impact)
-- [Privacy-Preserving Learning Analytics: A Framework](/docs/research/papers/privacy-preserving-analytics)
-- [Constructivist Approaches to Digital Assessment Design](/docs/research/papers/constructivist-assessment)
+### Publicaciones Recientes
+- [El Impacto de la Evaluación en Tiempo Real en la Participación Estudiantil](/docs/research/papers/realtime-assessment-impact)
+- [Analíticas de Aprendizaje que Preservan la Privacidad: Un Marco de Trabajo](/docs/research/papers/privacy-preserving-analytics)
+- [Enfoques Constructivistas para el Diseño de Evaluación Digital](/docs/research/papers/constructivist-assessment)
 
-## For Researchers
+## Para Investigadores
 
-We welcome collaboration with educational researchers, institutions, and practitioners. Our research is conducted in partnership with:
+Damos la bienvenida a la colaboración con investigadores educativos, instituciones y profesionales. Nuestra investigación se realiza en asociación con:
 
-- **Universities**: Multiple institutions contribute to our research agenda
-- **Educational Organizations**: Working with teachers, administrators, and policy makers
-- **Technology Partners**: Collaborating with edtech companies and research labs
-- **International Networks**: Contributing to global educational research efforts
+- **Universidades**: Múltiples instituciones contribuyen a nuestra agenda de investigación
+- **Organizaciones Educativas**: Trabajando con maestros, administradores y hacedores de política
+- **Socios Tecnológicos**: Colaborando con empresas edtech y laboratorios de investigación
+- **Redes Internacionales**: Contribuyendo a esfuerzos globales de investigación educativa
 
-### Get Involved
-- **Research Partnerships**: Contact us for collaboration opportunities
-- **Data Access**: Request access to anonymized datasets for research purposes
-- **Grant Applications**: Join our research consortium for funding opportunities
-- **Student Research**: Support for graduate student research projects
+### Participa
+- **Alianzas de Investigación**: Contáctanos para oportunidades de colaboración
+- **Acceso a Datos**: Solicita acceso a conjuntos de datos anonimizados para propósitos de investigación
+- **Solicitudes de Subvenciones**: Únete a nuestro consorcio de investigación para oportunidades de financiamiento
+- **Investigación Estudiantil**: Apoyo para proyectos de investigación de estudiantes de posgrado
 
-## Research Governance
+## Gobernanza de Investigación
 
-Our research is governed by:
-- **Institutional Review Board (IRB)** oversight
-- **Privacy and Ethics Committees**
-- **Data Protection Impact Assessments**
-- **Community Advisory Boards**
+Nuestra investigación se rige por:
+- Supervisión de la **Junta de Revisión Institucional (IRB)**
+- **Comités de Privacidad y Ética**
+- **Evaluaciones de Impacto de Protección de Datos**
+- **Juntas Consultivas Comunitarias**
 
-## Recent Highlights
+## Destacados Recientes
 
-> "Mehmiro's approach to formative feedback represents a significant advancement in how we understand and support student learning in digital environments." 
+> "El enfoque de Mehmiro hacia la retroalimentación formativa representa un avance significativo en cómo entendemos y apoyamos el aprendizaje estudiantil en entornos digitales."
 > 
-> — Dr. Sarah Martinez, Educational Technology Research Institute
+> — Dr. Sarah Martinez, Instituto de Investigación en Tecnología Educativa
 
-### Key Findings
-- 23% improvement in student engagement with formative feedback
-- 15% reduction in achievement gaps with targeted interventions
-- 87% of teachers report increased confidence in data-driven instruction
+### Hallazgos Clave
+- 23% de mejora en la participación estudiantil con retroalimentación formativa
+- 15% de reducción en brechas de logro con intervenciones específicas
+- 87% de los maestros reportan mayor confianza en la instrucción basada en datos
 
 ---
 
-*Our commitment to rigorous research ensures that Mehmiro continues to evolve based on the best evidence available in educational science.*
+*Nuestro compromiso con la investigación rigurosa asegura que Mehmiro continúa evolucionando basado en la mejor evidencia disponible en la ciencia educativa.*

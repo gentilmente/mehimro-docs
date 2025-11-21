@@ -1,128 +1,128 @@
 ---
 id: teacher-setup
-title: Teacher Getting Started Guide
-sidebar_label: For Teachers
-description: Complete guide for teachers to set up classes and assessments in Mehmiro
+title: Guía de Inicio para Maestros
+sidebar_label: Para Maestros
+description: Guía completa para maestros para configurar clases y evaluaciones en Mehmiro
 ---
 
-# Teacher Getting Started Guide
+# Guía de Inicio para Maestros
 
-## Goal
-By the end of this guide, you'll have successfully created your first class, set up an assessment, and learned how to interpret the results to support your students.
+## Objetivo
+Al final de esta guía, habrás creado exitosamente tu primera clase, configurado una evaluación, y aprendido cómo interpretar los resultados para apoyar a tus estudiantes.
 
-## Prerequisites
-- Access to a Mehmiro teacher account
-- Basic understanding of your institution's student information system
-- 15-20 minutes for initial setup
+## Prerrequisitos
+- Acceso a una cuenta de maestro de Mehmiro
+- Comprensión básica del sistema de información estudiantil de tu institución
+- 15-20 minutos para configuración inicial
 
-## Step 1: Accessing Your Dashboard
+## Paso 1: Accediendo a Tu Panel de Control
 
-1. **Log into Mehmiro** using your institutional credentials
-2. **Navigate to your teacher dashboard** - this is your command center for all class-related activities
-3. **Familiarize yourself with the layout**:
-   - **Classes** tab: Overview of all your classes
-   - **Assessments** tab: Manage and review assessments
-   - **Analytics** tab: Deep dive into student insights
-   - **Settings** tab: Configure your preferences
+1. **Inicia sesión en Mehmiro** usando tus credenciales institucionales
+2. **Navega a tu panel de control de maestro** - este es tu centro de comando para todas las actividades relacionadas con clases
+3. **Familiarízate con el diseño**:
+   - Pestaña **Clases**: Resumen de todas tus clases
+   - Pestaña **Evaluaciones**: Gestionar y revisar evaluaciones
+   - Pestaña **Analíticas**: Análisis profundo de perspectivas estudiantiles
+   - Pestaña **Configuración**: Configurar tus preferencias
 
 :::tip
-Your dashboard is personalized based on your role. If you don't see certain options, contact your administrator to ensure your account has the correct permissions.
+Tu panel de control está personalizado basado en tu rol. Si no ves ciertas opciones, contacta a tu administrador para asegurar que tu cuenta tenga los permisos correctos.
 :::
 
-## Step 2: Creating Your First Class
+## Paso 2: Creando Tu Primera Clase
 
-1. **Click "Create New Class"** from your dashboard
-2. **Enter class details**:
-   - Class name (e.g., "Algebra I - Period 3")
-   - Subject area
-   - Grade level
-   - Class size (approximate)
+1. **Haz clic en "Crear Nueva Clase"** desde tu panel de control
+2. **Ingresa detalles de la clase**:
+   - Nombre de la clase (ej., "Álgebra I - Período 3")
+   - Área de materia
+   - Nivel de grado
+   - Tamaño de clase (aproximado)
 
-3. **Add students** using one of these methods:
-   - **Manual entry**: Type student names and emails
-   - **Bulk import**: Upload CSV file from your student system
-   - **Integration**: Connect to your institution's SIS (if available)
+3. **Agrega estudiantes** usando uno de estos métodos:
+   - **Entrada manual**: Escribir nombres y correos de estudiantes
+   - **Importación masiva**: Subir archivo CSV desde tu sistema estudiantil
+   - **Integración**: Conectar al SIS de tu institución (si está disponible)
 
-4. **Set class schedule** (optional but recommended):
-   - Meeting times
-   - Duration
-   - Location
+4. **Establecer horario de clase** (opcional pero recomendado):
+   - Horarios de reunión
+   - Duración
+   - Ubicación
 
-## Step 3: Setting Up Your First Assessment
+## Paso 3: Configurando Tu Primera Evaluación
 
-1. **Navigate to the Assessment section**
-2. **Choose assessment type**:
-   - **Quiz**: Quick knowledge check (5-10 questions)
-   - **Test**: Comprehensive evaluation (10-20 questions)
-   - **Practice**: Ungraded skill building exercises
+1. **Navegar a la sección de Evaluación**
+2. **Elegir tipo de evaluación**:
+   - **Cuestionario**: Verificación rápida de conocimiento (5-10 preguntas)
+   - **Examen**: Evaluación integral (10-20 preguntas)
+   - **Práctica**: Ejercicios de construcción de habilidades sin calificación
 
-3. **Configure assessment settings**:
-   - Title and description
-   - Time limit (if applicable)
-   - Number of attempts allowed
-   - Due date and time
+3. **Configurar ajustes de evaluación**:
+   - Título y descripción
+   - Límite de tiempo (si aplica)
+   - Número de intentos permitidos
+   - Fecha y hora de vencimiento
 
-4. **Add questions**:
-   - Use the question bank for quick setup
-   - Create custom questions
-   - Import questions from previous assessments
+4. **Agregar preguntas**:
+   - Usar el banco de preguntas para configuración rápida
+   - Crear preguntas personalizadas
+   - Importar preguntas de evaluaciones anteriores
 
-## Step 4: Monitoring Student Progress
+## Paso 4: Monitoreando el Progreso Estudiantil
 
-1. **Launch assessment** and share access code with students
-2. **Monitor real-time progress** in your dashboard:
-   - Students who have started
-   - Completion status
-   - Time remaining for timed assessments
+1. **Lanzar evaluación** y compartir código de acceso con estudiantes
+2. **Monitorear progreso en tiempo real** en tu panel de control:
+   - Estudiantes que han comenzado
+   - Estado de completación
+   - Tiempo restante para evaluaciones cronometradas
 
-3. **Review results** immediately after completion:
-   - Individual student scores
-   - Class-wide performance trends
-   - Areas where students struggled
+3. **Revisar resultados** inmediatamente después de completación:
+   - Puntuaciones individuales de estudiantes
+   - Tendencias de rendimiento a nivel de clase
+   - Áreas donde los estudiantes tuvieron dificultades
 
-## Step 5: Using Assessment Insights
+## Paso 5: Usando Perspectivas de Evaluación
 
-1. **Access detailed analytics** from the Analytics tab
-2. **Review key metrics**:
-   - **Overall class performance**
-   - **Individual student trends**
-   - **Question-level analysis**
-   - **Learning objective mastery**
+1. **Acceder a analíticas detalladas** desde la pestaña de Analíticas
+2. **Revisar métricas clave**:
+   - **Rendimiento general de la clase**
+   - **Tendencias individuales de estudiantes**
+   - **Análisis a nivel de pregunta**
+   - **Dominio de objetivos de aprendizaje**
 
-3. **Identify action items**:
-   - Students who may need additional support
-   - Topics that need more classroom instruction
-   - Success stories to celebrate
+3. **Identificar elementos de acción**:
+   - Estudiantes que pueden necesitar apoyo adicional
+   - Temas que necesitan más instrucción en el aula
+   - Historias de éxito para celebrar
 
-## Step 6: Providing Feedback
+## Paso 6: Proporcionando Retroalimentación
 
-1. **Review individual student work**
-2. **Use Mehmiro's feedback tools**:
-   - Add written comments
-   - Record audio feedback
-   - Share relevant resources
+1. **Revisar trabajo individual de estudiantes**
+2. **Usar herramientas de retroalimentación de Mehmiro**:
+   - Agregar comentarios escritos
+   - Grabar retroalimentación de audio
+   - Compartir recursos relevantes
 
-3. **Provide targeted support** based on insights:
-   - Schedule one-on-one sessions
-   - Create small group activities
-   - Assign targeted practice materials
+3. **Proporcionar apoyo específico** basado en perspectivas:
+   - Programar sesiones uno a uno
+   - Crear actividades de grupos pequeños
+   - Asignar materiales de práctica específicos
 
-## Next Steps
+## Próximos Pasos
 
-Congratulations! You've completed the basic setup. Here are some recommended next steps:
+¡Felicitaciones! Has completado la configuración básica. Aquí hay algunos próximos pasos recomendados:
 
-- **Explore advanced features**: [Assessment Insights Guide](/docs/user/guides/assessment-insights)
-- **Set up automated reports**: [Monitoring System Guide](/docs/user/guides/student-monitoring)
-- **Learn about data privacy**: [Student Data Guide](/docs/user/guides/data-privacy)
+- **Explorar características avanzadas**: [Guía de Perspectivas de Evaluación](/docs/user/guides/assessment-insights)
+- **Configurar reportes automatizados**: [Guía del Sistema de Monitoreo](/docs/user/guides/student-monitoring)
+- **Aprender sobre privacidad de datos**: [Guía de Datos Estudiantiles](/docs/user/guides/data-privacy)
 
-## Troubleshooting
+## Solución de Problemas
 
-**Common Issues:**
+**Problemas Comunes:**
 
-- **Students can't access assessment**: Check that the access code is correct and the assessment is published
-- **Missing student data**: Verify student information was imported correctly
-- **Assessment won't launch**: Check your internet connection and browser compatibility
+- **Los estudiantes no pueden acceder a la evaluación**: Verificar que el código de acceso sea correcto y la evaluación esté publicada
+- **Faltan datos estudiantiles**: Verificar que la información estudiantil se importó correctamente
+- **La evaluación no se lanza**: Verificar tu conexión a internet y compatibilidad del navegador
 
 :::warning
-Need help? Contact your Mehmiro administrator or check the [FAQ](/docs/user/guides/faq) for detailed troubleshooting steps.
+¿Necesitas ayuda? Contacta al administrador de Mehmiro o consulta las [Preguntas Frecuentes](/docs/user/guides/faq) para pasos detallados de solución de problemas.
 :::

@@ -1,149 +1,149 @@
 ---
 id: student-access
-title: Student Getting Started Guide
-sidebar_label: For Students
-description: Complete guide for students to access and use Mehmiro assessments
+title: Guía de Inicio para Estudiantes
+sidebar_label: Para Estudiantes
+description: Guía completa para estudiantes para acceder y usar evaluaciones de Mehmiro
 ---
 
-# Student Getting Started Guide
+# Guía de Inicio para Estudiantes
 
-## Goal
-By the end of this guide, you'll know how to access assessments, understand your results, and use Mehmiro to improve your learning.
+## Objetivo
+Al final de esta guía, sabrás cómo acceder a evaluaciones, entender tus resultados, y usar Mehmiro para mejorar tu aprendizaje.
 
-## Prerequisites
-- Mehmiro student account credentials
-- Stable internet connection
-- 10 minutes for initial setup
+## Prerrequisitos
+- Credenciales de cuenta estudiantil de Mehmiro
+- Conexión estable a internet
+- 10 minutos para configuración inicial
 
-## Step 1: Accessing Mehmiro
+## Paso 1: Accediendo a Mehmiro
 
-1. **Get your access credentials** from your teacher:
-   - Access code or direct link
-   - Your student ID or email address
-   - Temporary password (if required)
+1. **Obtén tus credenciales de acceso** de tu maestro:
+   - Código de acceso o enlace directo
+   - Tu ID de estudiante o dirección de correo
+   - Contraseña temporal (si se requiere)
 
-2. **Log into the platform**:
-   - Go to your school's Mehmiro portal
-   - Enter the access code provided by your teacher
-   - Use your student credentials
+2. **Inicia sesión en la plataforma**:
+   - Ve al portal de Mehmiro de tu escuela
+   - Ingresa el código de acceso proporcionado por tu maestro
+   - Usa tus credenciales de estudiante
 
-3. **Complete your profile** (if prompted):
-   - Verify your personal information
-   - Set your preferred notification settings
-   - Choose your privacy preferences
+3. **Completa tu perfil** (si se solicita):
+   - Verifica tu información personal
+   - Establece tus configuraciones de notificación preferidas
+   - Elige tus preferencias de privacidad
 
 :::tip
-Save the Mehmiro portal address in your bookmarks for quick access to all your assessments.
+Guarda la dirección del portal de Mehmiro en tus marcadores para acceso rápido a todas tus evaluaciones.
 :::
 
-## Step 2: Navigating Your Student Dashboard
+## Paso 2: Navegando Tu Panel de Control Estudiantil
 
-Your dashboard shows everything you need in one place:
+Tu panel de control muestra todo lo que necesitas en un solo lugar:
 
-- **Upcoming Assessments**: What's due soon
-- **Recent Results**: Your latest scores and feedback
-- **Learning Progress**: Visual representation of your growth over time
-- **Available Resources**: Study materials and practice exercises
+- **Evaluaciones Próximas**: Lo que vence pronto
+- **Resultados Recientes**: Tus puntuaciones y retroalimentación más recientes
+- **Progreso de Aprendizaje**: Representación visual de tu crecimiento a lo largo del tiempo
+- **Recursos Disponibles**: Materiales de estudio y ejercicios de práctica
 
-**Key areas to explore:**
-- **Assessments tab**: View all assigned work
-- **Results tab**: See detailed feedback and scores
-- **Progress tab**: Track your learning journey
-- **Messages tab**: Communication from your teacher
+**Áreas clave para explorar:**
+- Pestaña **Evaluaciones**: Ver todo el trabajo asignado
+- Pestaña **Resultados**: Ver retroalimentación detallada y puntuaciones
+- Pestaña **Progreso**: Rastrear tu viaje de aprendizaje
+- Pestaña **Mensajes**: Comunicación de tu maestro
 
-## Step 3: Taking Your First Assessment
+## Paso 3: Tomando Tu Primera Evaluación
 
-1. **Find your assessment** in the Upcoming Assessments section
-2. **Click "Start Assessment"** when you're ready
-3. **Read instructions carefully**:
-   - Time limits (if any)
-   - Number of attempts allowed
-   - What materials you can use
+1. **Encuentra tu evaluación** en la sección de Evaluaciones Próximas
+2. **Haz clic en "Iniciar Evaluación"** cuando estés listo
+3. **Lee las instrucciones cuidadosamente**:
+   - Límites de tiempo (si los hay)
+   - Número de intentos permitidos
+   - Qué materiales puedes usar
 
-4. **Navigate through questions**:
-   - Use "Previous/Next" buttons to move between questions
-   - "Mark for Review" questions you want to revisit
-   - Track your progress with the question counter
+4. **Navega a través de las preguntas**:
+   - Usa los botones "Anterior/Siguiente" para moverte entre preguntas
+   - "Marcar para Revisar" preguntas que quieres visitar nuevamente
+   - Rastrea tu progreso con el contador de preguntas
 
-5. **Submit when finished**:
-   - Review flagged questions before submitting
-   - Confirm submission (this action cannot be undone)
+5. **Envía cuando hayas terminado**:
+   - Revisa las preguntas marcadas antes de enviar
+   - Confirma el envío (esta acción no se puede deshacer)
 
 :::note
-Once you submit an assessment, you'll be able to see your results immediately in most cases. Some teachers may choose to release results at a later time.
+Una vez que envíes una evaluación, podrás ver tus resultados inmediatamente en la mayoría de los casos. Algunos maestros pueden elegir liberar resultados en un momento posterior.
 :::
 
-## Step 4: Understanding Your Results
+## Paso 4: Entendiendo Tus Resultados
 
-After completing an assessment, you'll see:
+Después de completar una evaluación, verás:
 
-### **Score Overview**
-- Your overall score
-- Class average (if enabled by your teacher)
-- Grade trends over time
+### **Resumen de Puntuación**
+- Tu puntuación general
+- Promedio de clase (si está habilitado por tu maestro)
+- Tendencias de calificaciones a lo largo del tiempo
 
-### **Question-by-Question Review**
-- Which questions you got right/wrong
-- Detailed explanations for correct answers
-- Areas where you made common mistakes
+### **Revisión Pregunta por Pregunta**
+- Qué preguntas acertaste/equivocaste
+- Explicaciones detalladas para respuestas correctas
+- Áreas donde cometiste errores comunes
 
-### **Learning Insights**
-- Your strengths and areas for improvement
-- Specific topics that need more practice
-- Recommendations for study resources
+### **Perspectivas de Aprendizaje**
+- Tus fortalezas y áreas para mejora
+- Temas específicos que necesitan más práctica
+- Recomendaciones para recursos de estudio
 
-## Step 5: Using Feedback Effectively
+## Paso 5: Usando la Retroalimentación Efectivamente
 
-1. **Review all feedback** carefully:
-   - Written comments from your teacher
-   - Automated explanations for incorrect answers
-   - Suggestions for improvement
+1. **Revisa toda la retroalimentación** cuidadosamente:
+   - Comentarios escritos de tu maestro
+   - Explicaciones automatizadas para respuestas incorrectas
+   - Sugerencias para mejora
 
-2. **Take action on feedback**:
-   - Review topics you're struggling with
-   - Practice using recommended resources
-   - Ask questions during class time
+2. **Toma acción sobre la retroalimentación**:
+   - Revisa temas con los que tienes dificultades
+   - Practica usando recursos recomendados
+   - Haz preguntas durante el tiempo de clase
 
-3. **Track your progress**:
-   - Check your learning trends over time
-   - Celebrate improvements and achievements
-   - Set goals for future assessments
+3. **Rastrea tu progreso**:
+   - Verifica tus tendencias de aprendizaje a lo largo del tiempo
+   - Celebra mejoras y logros
+   - Establece metas para futuras evaluaciones
 
-## Step 6: Best Practices for Success
+## Paso 6: Mejores Prácticas para el Éxito
 
-### **Before Assessments**
-- Review class notes and materials
-- Complete any practice exercises
-- Get a good night's sleep
-- Prepare necessary materials (calculator, notes, etc.)
+### **Antes de Evaluaciones**
+- Revisa notas y materiales de clase
+- Completa cualquier ejercicio de práctica
+- Descansa bien la noche anterior
+- Prepara materiales necesarios (calculadora, notas, etc.)
 
-### **During Assessments**
-- Read each question carefully
-- Manage your time effectively
-- Don't rush through easy questions
-- Use the full time available if needed
+### **Durante Evaluaciones**
+- Lee cada pregunta cuidadosamente
+- Maneja tu tiempo efectivamente
+- No te apresures a través de preguntas fáciles
+- Usa todo el tiempo disponible si es necesario
 
-### **After Assessments**
-- Review feedback promptly
-- Create a study plan for areas needing improvement
-- Seek help from your teacher or classmates
-- Apply insights to future assignments
+### **Después de Evaluaciones**
+- Revisa la retroalimentación prontamente
+- Crea un plan de estudio para áreas que necesitan mejora
+- Busca ayuda de tu maestro o compañeros
+- Aplica perspectivas a futuras tareas
 
-## Next Steps
+## Próximos Pasos
 
-- **Explore more features**: [Understanding Assessment Insights](/docs/user/guides/assessment-insights-for-students)
-- **Set learning goals**: [Progress Tracking Guide](/docs/user/guides/progress-tracking)
-- **Find study resources**: [Recommended Study Materials](/docs/user/guides/study-resources)
+- **Explorar más características**: [Entendiendo Perspectivas de Evaluación](/docs/user/guides/assessment-insights-for-students)
+- **Establecer metas de aprendizaje**: [Guía de Seguimiento de Progreso](/docs/user/guides/progress-tracking)
+- **Encontrar recursos de estudio**: [Materiales de Estudio Recomendados](/docs/user/guides/study-resources)
 
-## Troubleshooting
+## Solución de Problemas
 
-**Common issues and solutions:**
+**Problemas comunes y soluciones:**
 
-- **Can't log in**: Double-check your access code and credentials
-- **Assessment won't load**: Refresh the page or try a different browser
-- **Lost internet connection**: Your progress is saved automatically
-- **Technical issues**: Contact your teacher or IT support
+- **No puedo iniciar sesión**: Verifica doblemente tu código de acceso y credenciales
+- **La evaluación no carga**: Actualiza la página o prueba un navegador diferente
+- **Conexión a internet perdida**: Tu progreso se guarda automáticamente
+- **Problemas técnicos**: Contacta a tu maestro o soporte de TI
 
 :::warning
-Experiencing persistent issues? Don't wait until the assessment due date to ask for help. Reach out to your teacher immediately for assistance.
+¿Experimentando problemas persistentes? No esperes hasta la fecha de vencimiento de la evaluación para pedir ayuda. Contacta a tu maestro inmediatamente para asistencia.
 :::

@@ -1,99 +1,99 @@
 ---
 id: creating-your-first-assessment
-title: Creating Your First Assessment
-sidebar_label: Create Your First Assessment
-description: Step-by-step tutorial for teachers to create their first assessment with Mehmiro
+title: Creando Tu Primera Evaluación
+sidebar_label: Crea Tu Primera Evaluación
+description: Tutorial paso a paso para maestros para crear su primera evaluación con Mehmiro
 ---
 
-# Creating Your First Assessment
+# Creando Tu Primera Evaluación
 
-## Goal
-In this tutorial, you'll create and launch your first Mehmiro assessment, configure settings, and learn how to interpret the results to support your students' learning.
+## Objetivo
+En este tutorial, crearás y lanzarás tu primera evaluación de Mehmiro, configurarás ajustes, y aprenderás cómo interpretar los resultados para apoyar el aprendizaje de tus estudiantes.
 
-## Prerequisites
-- Mehmiro teacher account access
-- A class with students already set up
-- 15-20 minutes for the complete tutorial
+## Prerrequisitos
+- Acceso a cuenta de maestro de Mehmiro
+- Una clase con estudiantes ya configurada
+- 15-20 minutos para el tutorial completo
 
-## Step 1: Access the Assessment Creation Wizard
+## Paso 1: Acceder al Asistente de Creación de Evaluación
 
-1. **Log into your teacher dashboard**
-2. **Navigate to the Assessments section**
-   - Click "Assessments" in the main navigation
-   - Select "Create New Assessment"
+1. **Inicia sesión en tu panel de control de maestro**
+2. **Navega a la sección de Evaluaciones**
+   - Haz clic en "Evaluaciones" en la navegación principal
+   - Selecciona "Crear Nueva Evaluación"
 
-3. **Choose your assessment type**:
-   - **Quiz**: Quick knowledge check (5-10 questions, 15-30 minutes)
-   - **Test**: Comprehensive evaluation (10-20 questions, 30-60 minutes)  
-   - **Practice**: Ungraded skill building (flexible questions, unlimited time)
+3. **Elige tu tipo de evaluación**:
+   - **Cuestionario**: Verificación rápida de conocimiento (5-10 preguntas, 15-30 minutos)
+   - **Examen**: Evaluación integral (10-20 preguntas, 30-60 minutos)  
+   - **Práctica**: Construcción de habilidades sin calificación (preguntas flexibles, tiempo ilimitado)
 
-**For this tutorial, select "Quiz" as it's perfect for getting started.**
+**Para este tutorial, selecciona "Cuestionario" ya que es perfecto para comenzar.**
 
-## Step 2: Configure Basic Settings
+## Paso 2: Configurar Ajustes Básicos
 
-### Assessment Information
-1. **Title**: "Algebra I - Week 3 Quiz" (or your preferred naming convention)
-2. **Description**: "This quiz covers quadratic equations and factoring"
-3. **Instructions**: "You have 25 minutes to complete this quiz. You may use a calculator."
+### Información de la Evaluación
+1. **Título**: "Álgebra I - Cuestionario Semana 3" (o tu convención de nomenclatura preferida)
+2. **Descripción**: "Este cuestionario cubre ecuaciones cuadráticas y factorización"
+3. **Instrucciones**: "Tienes 25 minutos para completar este cuestionario. Puedes usar una calculadora."
 
-### Timing and Attempts
-1. **Time Limit**: 25 minutes (recommended for beginner users)
-2. **Number of Attempts**: 2 attempts allowed
-3. **Shuffle Questions**: ✅ Yes (recommended)
-4. **Show Solutions**: After submission
+### Tiempo y Intentos
+1. **Límite de Tiempo**: 25 minutos (recomendado para usuarios principiantes)
+2. **Número de Intentos**: 2 intentos permitidos
+3. **Mezclar Preguntas**: ✅ Sí (recomendado)
+4. **Mostrar Soluciones**: Después del envío
 
 :::tip
-Start with generous time limits and multiple attempts. You can adjust these settings based on experience with your class.
+Comienza con límites de tiempo generosos y múltiples intentos. Puedes ajustar estos ajustes basado en la experiencia con tu clase.
 :::
 
-## Step 3: Create Your Questions
+## Paso 3: Crear Tus Preguntas
 
-### Method 1: Use the Question Bank (Recommended for beginners)
+### Método 1: Usar el Banco de Preguntas (Recomendado para principiantes)
 
-1. **Click "Add from Question Bank"**
-2. **Select subject area**: Mathematics → Algebra
-3. **Choose topic**: Quadratic Equations
-4. **Filter by difficulty**: Mixed (or your preference)
+1. **Haz clic en "Agregar desde Banco de Preguntas"**
+2. **Selecciona área de materia**: Matemáticas → Álgebra
+3. **Elige tema**: Ecuaciones Cuadráticas
+4. **Filtrar por dificultad**: Mixto (o tu preferencia)
 
-**Select 5 questions from the bank:**
+**Selecciona 5 preguntas del banco:**
 
-1. **Multiple Choice**: "Solve for x: x² + 5x + 6 = 0"
-2. **Multiple Choice**: "Which method would you use to factor x² - 9?"
-3. **Short Answer**: "Factor completely: 2x² + 7x + 3"
-4. **Multiple Choice**: "What is the discriminant of 3x² + 2x - 1 = 0?"
-5. **Calculated**: Custom calculation problem
+1. **Opción Múltiple**: "Resuelve para x: x² + 5x + 6 = 0"
+2. **Opción Múltiple**: "¿Qué método usarías para factorizar x² - 9?"
+3. **Respuesta Corta**: "Factoriza completamente: 2x² + 7x + 3"
+4. **Opción Múltiple**: "¿Cuál es el discriminante de 3x² + 2x - 1 = 0?"
+5. **Calculada**: Problema de cálculo personalizado
 
-### Method 2: Create Custom Questions
+### Método 2: Crear Preguntas Personalizadas
 
-For each question:
+Para cada pregunta:
 
-1. **Question Type**: Choose from:
-   - Multiple Choice (great for quick assessment)
-   - Short Answer (for showing work)
-   - True/False (for conceptual understanding)
-   - Calculated (for numeric answers)
+1. **Tipo de Pregunta**: Elige entre:
+   - Opción Múltiple (excelente para evaluación rápida)
+   - Respuesta Corta (para mostrar trabajo)
+   - Verdadero/Falso (para comprensión conceptual)
+   - Calculada (para respuestas numéricas)
 
-2. **Write your question**: Clear, concise, with single learning objective
+2. **Escribe tu pregunta**: Clara, concisa, con objetivo de aprendizaje único
 
-3. **Provide correct answer**: And explain the reasoning
+3. **Proporciona respuesta correcta**: Y explica el razonamiento
 
-4. **Add distractors**: For multiple choice, include plausible wrong answers
+4. **Agrega distractores**: Para opción múltiple, incluye respuestas incorrectas plausibles
 
-## Step 4: Configure Feedback Settings
+## Paso 4: Configurar Ajustes de Retroalimentación
 
-### Automated Feedback Options
-1. **Immediate Feedback**: ✅ Show correct answer after each question
-2. **Explanation**: ✅ Provide detailed explanation for wrong answers
-3. **Hints**: ✅ Give hints for incorrect responses
-4. **Progress Indicators**: ✅ Show completion progress
+### Opciones de Retroalimentación Automatizada
+1. **Retroalimentación Inmediata**: ✅ Mostrar respuesta correcta después de cada pregunta
+2. **Explicación**: ✅ Proporcionar explicación detallada para respuestas incorrectas
+3. **Pistas**: ✅ Dar pistas para respuestas incorrectas
+4. **Indicadores de Progreso**: ✅ Mostrar progreso de completación
 
-### Teacher Feedback
-1. **Individual Comments**: ✅ Enable (allows personal notes)
-2. **Audio Feedback**: ✅ Enable (record personal explanations)
-3. **Resource Links**: ✅ Enable (share relevant study materials)
+### Retroalimentación del Maestro
+1. **Comentarios Individuales**: ✅ Habilitar (permite notas personales)
+2. **Retroalimentación de Audio**: ✅ Habilitar (grabar explicaciones personales)
+3. **Enlaces de Recursos**: ✅ Habilitar (compartir materiales de estudio relevantes)
 
 :::note
-Students really appreciate getting explanations for incorrect answers. This helps them learn from mistakes rather than just seeing their score.
+Los estudiantes realmente aprecian obtener explicaciones para respuestas incorrectas. Esto les ayuda a aprender de los errores en lugar de solo ver su puntuación.
 :::
 
 ## Step 5: Review and Publish

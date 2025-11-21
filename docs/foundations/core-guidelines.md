@@ -1,79 +1,79 @@
 ---
 id: core-guidelines
-title: Core Guidelines
-sidebar_label: Core Guidelines
+title: Pautas Centrales
+sidebar_label: Pautas Centrales
 ---
 
-# Core Guidelines
+# Pautas Centrales
 
-This document outlines the fundamental principles and guidelines that govern the development and maintenance of the Mehmiro platform.
+Este documento describe los principios fundamentales y pautas que gobiernan el desarrollo y mantenimiento de la plataforma Mehmiro.
 
-## Development Philosophy
+## Filosofía de Desarrollo
 
-### User-Centric Design
-- All features must prioritize the needs of teachers and students
-- Interface design should be intuitive and accessible
-- Performance should never compromise user experience
+### Diseño Centrado en el Usuario
+- Todas las características deben priorizar las necesidades de maestros y estudiantes
+- El diseño de interfaz debe ser intuitivo y accesible
+- El rendimiento nunca debe comprometer la experiencia del usuario
 
-### Quality First
-- Code must be thoroughly tested before deployment
-- Documentation must be accurate and up-to-date
-- Security considerations must be integrated into all features
+### Calidad Primero
+- El código debe ser completamente probado antes del despliegue
+- La documentación debe ser precisa y actualizada
+- Las consideraciones de seguridad deben integrarse en todas las características
 
-### Iterative Improvement
-- Features should be developed incrementally
-- User feedback should drive feature enhancements
-- Technical debt should be addressed proactively
+### Mejora Iterativa
+- Las características deben desarrollarse incrementalmente
+- La retroalimentación del usuario debe impulsar mejoras de características
+- La deuda técnica debe abordarse proactivamente
 
-## Technical Standards
+## Estándares Técnicos
 
-### Code Quality
-- Follow established coding standards and best practices
-- Use TypeScript for type safety
-- Implement comprehensive error handling
+### Calidad del Código
+- Seguir estándares de codificación establecidos y mejores prácticas
+- Usar TypeScript para seguridad de tipos
+- Implementar manejo integral de errores
 
-### Testing Strategy
-- Unit tests for all business logic
-- Integration tests for API endpoints
-- End-to-end tests for critical user flows
-- BDD scenarios for feature validation
+### Estrategia de Pruebas
+- Pruebas unitarias para toda lógica de negocio
+- Pruebas de integración para endpoints API
+- Pruebas end-to-end para flujos de usuario críticos
+- Escenarios BDD para validación de características
 
-### Documentation
-- All features must be documented
-- API endpoints must have clear specifications
-- Code must be self-documenting where possible
+### Documentación
+- Todas las características deben documentarse
+- Los endpoints API deben tener especificaciones claras
+- El código debe ser auto-documentable cuando sea posible
 
-## Process Guidelines
+## Pautas de Proceso
 
-### Feature Development
-1. Define requirements through BDD scenarios
-2. Design architecture and data models
-3. Implement with comprehensive testing
-4. Document thoroughly
-5. Deploy with monitoring
+### Desarrollo de Características
+1. Definir requisitos a través de escenarios BDD
+2. Diseñar arquitectura y modelos de datos
+3. Implementar con pruebas integrales
+4. Documentar completamente
+5. Desplegar con monitoreo
 
-### Code Review
-- All changes require peer review
-- Reviews focus on code quality, security, and standards compliance
-- Constructive feedback is encouraged
+### Revisión de Código
+- Todos los cambios requieren revisión por pares
+- Las revisiones se enfocan en calidad del código, seguridad y cumplimiento de estándares
+- Se fomenta la retroalimentación constructiva
 
-### Deployment
-- Automated testing must pass before deployment
-- Rollbacks must be possible
-- Monitoring must be in place for new features
+### Despliegue
+- Las pruebas automatizadas deben pasar antes del despliegue
+- Los rollbacks deben ser posibles
+- El monitoreo debe estar en su lugar para nuevas características
 
-## Communication
+## Comunicación
 
-### Internal Communication
-- Use clear, concise language in all documentation
-- Maintain transparency in development processes
-- Encourage open discussion of technical decisions
+### Comunicación Interna
+- Usar lenguaje claro y conciso en toda la documentación
+- Mantener transparencia en procesos de desarrollo
+- Fomentar discusión abierta de decisiones técnicas
 
-### User Communication
-- Provide clear onboarding and help resources
-- Communicate feature changes proactively
-- Maintain responsive support channels
+### Comunicación con el Usuario
+- Proporcionar recursos claros de incorporación y ayuda
+- Comunicar cambios de características proactivamente
+- Mantener canales de soporte responsivos
 
 ---
 
-*These guidelines evolve as the platform grows. All team members are encouraged to contribute to their improvement.*
+*Estas pautas evolucionan conforme crece la plataforma. Se fomenta que todos los miembros del equipo contribuyan a su mejora.*
