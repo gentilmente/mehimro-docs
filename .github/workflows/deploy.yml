@@ -41,6 +41,10 @@ jobs:
       - name: Build with Docusaurus
         run: npm run build
 
+      - name: Setup custom domain
+        run: |
+          echo "docs.mehmiro.com" > build/CNAME
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
