@@ -1,84 +1,130 @@
-# Mehmiro Documentation Portal
+# Mehmiro Documentation Hub
 
-This documentation portal is built using [Docusaurus](https://docusaurus.io/), a modern static website generator optimized for documentation sites.
+A comprehensive Docusaurus-based documentation portal for Mehmiro, the AI-powered educational assessment platform.
 
-## Overview
+## 🚀 Quick Start
 
-The Mehmiro Documentation Hub serves as the central repository for all project documentation, including:
+### Prerequisites
+- Node.js 20.0 or higher
+- npm or yarn
 
-- **Foundations**: Project overview, personas, glossary, and core guidelines
-- **Architecture**: System architecture, data models, and performance/security considerations
-- **Standards**: Coding standards, UI guidelines, and testing strategies
-- **Processes**: Feature lifecycle and documentation governance
-- **Features**: Detailed documentation for all implemented features
-
-## Installation
+### Local Development
 
 ```bash
-pnpm install
+# Install dependencies
+npm install
+
+# Start development server
+npm run start
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
 ```
 
-## Local Development
+## 📚 Documentation
+
+This portal contains:
+
+- **Foundations**: Core principles, vocabulary, and project context
+- **Architecture**: System blueprints, data modeling, and non-functional requirements
+- **Standards**: Engineering guidelines for consistent delivery
+- **Processes**: Operational playbooks and feature lifecycle definitions
+- **Features**: Detailed feature specifications with BDD scenarios
+
+## 🌐 GitHub Pages Deployment
+
+### Automatic Deployment
+
+This repository is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+**Deployment Steps:**
+
+1. **Enable GitHub Pages:**
+   - Go to your repository settings: `https://github.com/gentilmente/mehimro-docs/settings/pages`
+   - Under "Source", select "GitHub Actions"
+   - Save the settings
+
+2. **Trigger Deployment:**
+   - The workflow runs automatically on pushes to the `main` branch
+   - You can also trigger manually from the Actions tab
+   - Visit the workflow: `https://github.com/gentilmente/mehimro-docs/actions/workflows/deploy.yml`
+
+3. **Access Your Site:**
+   - Your documentation will be available at: `https://gentilmente.github.io/mehimro-docs/`
+   - Build process takes 2-5 minutes
+   - Check the Actions tab for deployment status
+
+### Manual Deployment
 
 ```bash
-pnpm start
+# Install dependencies
+npm install
+
+# Build the site
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Workflow Configuration
 
-## Build
+The deployment workflow (`.github/workflows/deploy.yml`):
+- Automatically builds and deploys on push to `main`
+- Uses Node.js 20
+- Configures GitHub Pages with latest Actions
+- Uploads build artifacts and deploys to Pages
 
-```bash
-pnpm build
+## 🔧 Configuration
+
+### Repository Settings
+
+Update `docusaurus.config.ts` for:
+- Organization name
+- Project name  
+- Base URL
+- GitHub repository links
+
+### Custom Domain (Optional)
+
+To use a custom domain:
+1. Add a `CNAME` file to the `static/` directory
+2. Configure DNS settings with your domain provider
+3. Update GitHub Pages settings in repository settings
+
+## 📁 Project Structure
+
+```
+mehimro-docs/
+├── .github/workflows/     # GitHub Actions
+├── blog/                  # Blog posts
+├── docs/                  # Documentation
+│   ├── architecture/      # System architecture
+│   ├── features/          # Feature specifications
+│   ├── foundations/       # Core principles
+│   ├── processes/         # Operational procedures
+│   └── standards/         # Engineering standards
+├── src/pages/            # React pages
+├── static/               # Static assets
+├── docusaurus.config.ts  # Docusaurus configuration
+└── sidebars.ts          # Navigation sidebar
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 🤝 Contributing
 
-## Validation
+1. Update documentation alongside code changes
+2. Use provided templates for new content
+3. Validate links before submitting pull requests
+4. Run `npm run build` to test locally
 
-```bash
-# Type checking
-pnpm typecheck
+## 📝 License
 
-# Linting
-pnpm lint
+Built with ❤️ for educators using Docusaurus 3.9.
 
-# Documentation validation
-pnpm docs:lint
-```
+---
 
-## Deployment
-
-The documentation is automatically deployed via GitHub Actions when changes are pushed to the main branch. The deployment workflow:
-
-1. Validates the documentation structure
-2. Builds the static site
-3. Deploys to GitHub Pages
-
-For manual deployment using Docusaurus:
-
-Using SSH:
-```bash
-USE_SSH=true pnpm deploy
-```
-
-Not using SSH:
-```bash
-GIT_USER=<Your GitHub username> pnpm deploy
-```
-
-## Contributing
-
-When contributing to the documentation:
-
-1. Follow the established structure in `docs/`
-2. Update the sidebar configuration in `sidebars.ts` if adding new sections
-3. Ensure all links are valid and properly formatted
-4. Run validation scripts before committing
-
-## CI/CD
-
-The project uses GitHub Actions for continuous integration and deployment:
-
-- **docs-validation.yml**: Validates documentation structure and builds on PRs
-- **deploy-docs.yml**: Deploys to GitHub Pages on main branch pushes
+**Repository**: https://github.com/gentilmente/mehimro-docs
+**Live Site**: https://gentilmente.github.io/mehimro-docs/ (after enabling GitHub Pages)
