@@ -127,4 +127,4 @@ Built with ❤️ for educators using Docusaurus 3.9.
 ---
 
 **Repository**: https://github.com/gentilmente/mehimro-docs
-**Live Site**: https://gentilmente.github.io/mehimro-docs/ (after enabling GitHub Pages)
+**Live Site**: https://docs.mehmiro.com (custom domain)
