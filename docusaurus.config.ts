@@ -55,19 +55,7 @@ const config: Config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true
         },
-        blog: {
-          blogTitle: 'Mehmiro Research & Updates',
-          blogDescription: 'Latest research findings, feature updates, and educational insights from the Mehmiro team',
-          postsPerPage: 'ALL',
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: 'Recent Posts',
-          feedOptions: {
-            type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Mehmiro Educational Technology.`,
-          },
-        },
+        blog: false,
         pages: {
           path: 'src/pages',
           routeBasePath: '/'
