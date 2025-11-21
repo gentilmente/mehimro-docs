@@ -1,12 +1,12 @@
 ---
 id: system-architecture
-title: System Architecture
-sidebar_label: System Architecture
+title: Arquitectura del Sistema
+sidebar_label: Arquitectura del Sistema
 ---
 
-# System Architecture
+# Arquitectura del Sistema
 
-## High-Level Overview
+## Resumen de Alto Nivel
 
 ```mermaid
 graph TD
@@ -40,9 +40,9 @@ graph TD
     Services --> AI
 ```
 
-The platform uses **Next.js 15 (App Router)** with React Server Components for server-rendered experiences and Client Components for interactive dashboards. Business logic resides in a service layer under `app/lib/services`, with Supabase providing database, authentication, and real-time capabilities. AI features integrate through Google Gemini APIs.
+La plataforma usa **Next.js 15 (App Router)** con React Server Components para experiencias renderizadas en servidor y Client Components para paneles interactivos. La lógica de negocio reside en una capa de servicios bajo `app/lib/services`, con Supabase proporcionando base de datos, autenticación y capacidades en tiempo real. Las características de IA se integran a través de APIs de Google Gemini.
 
-## Application Directory Structure
+## Estructura de Directorio de la Aplicación
 
 ```text
 app/
@@ -66,81 +66,81 @@ app/
     └── ...
 ```
 
-### Routing
+### Enrutamiento
 
-- **Route groups** organize layouts without impacting URLs (`(routes)`).
-- **Dynamic routes** (e.g., `/class/[id]`, `/student/[id]`) fetch data server-side, then hydrate Client Components.
-- **API routes** under `app/api/*` provide secure data access and integration endpoints.
+- **Grupos de rutas** organizan layouts sin impactar URLs (`(routes)`).
+- **Rutas dinámicas** (ej. `/class/[id]`, `/student/[id]`) obtienen datos del lado del servidor, luego hidratan Client Components.
+- **Rutas API** bajo `app/api/*` proporcionan acceso seguro a datos y endpoints de integración.
 
-## Core Services
+## Servicios Principales
 
-| Service                          | Responsibility                                                                  |
-| -------------------------------- | ------------------------------------------------------------------------------- |
-| `student-service.ts`             | Fetches student profiles, aggregates assessment history, enforces RLS policies. |
-| `assessment-service.ts`          | CRUD for assessment sessions, variables, and results.                           |
-| `lesson-service.ts`              | Manages lesson creation, personalization, and scheduling.                       |
-| `assessment-ai.ts`               | Wraps AI prompt generation and response parsing for insights.                   |
-| `assessment-insights-service.ts` | Calculates trends, comparisons, and AI-powered summaries.                       |
-| `class-service.ts`               | Handles class-level configuration, variables, and roster management.            |
-| `onboarding-service.ts`          | Orchestrates teacher onboarding workflows and persistence.                      |
+| Servicio                      | Responsabilidad                                                                   |
+| ----------------------------- | --------------------------------------------------------------------------------- |
+| `student-service.ts`          | Obtiene perfiles estudiantiles, agrega historial de evaluaciones, aplica políticas RLS. |
+| `assessment-service.ts`       | CRUD para sesiones de evaluación, variables y resultados.                         |
+| `lesson-service.ts`           | Gestiona creación de lecciones, personalización y programación.                   |
+| `assessment-ai.ts`            | Encapsula generación de prompts IA y análisis de respuestas para perspectivas.    |
+| `assessment-insights-service.ts` | Calcula tendencias, comparaciones y resúmenes impulsados por IA.                 |
+| `class-service.ts`            | Maneja configuración a nivel de clase, variables y gestión de listas de estudiantes.|
+| `onboarding-service.ts`       | Orquesta flujos de trabajo de incorporación de profesores y persistencia.         |
 
-Services expose typed methods consumed by API routes and hooks. They centralize Side effects (Supabase calls, AI requests, caching).
+Los servicios exponen métodos tipados consumidos por rutas API y hooks. Centralizan efectos secundarios (llamadas Supabase, solicitudes IA, caché).
 
-## Data Flow
+## Flujo de Datos
 
-1. **User Interaction**: Teacher loads a page or triggers an action.
-2. **Server Component Fetching**: Server-side data fetching occurs in layout/page loaders for SEO and secure access.
-3. **Service Layer**: Business logic executes, combining Supabase queries, AI calls, and domain rules.
-4. **Database**: Supabase imposes Row Level Security, returning scoped data.
-5. **Client Hydration**: React hydrates client components, hooking into custom hooks for updates and mutations.
-6. **Realtime Updates**: Supabase subscriptions notify hooks/services, updating charts and dashboards live.
+1. **Interacción del Usuario**: El profesor carga una página o activa una acción.
+2. **Obtención de Componente Servidor**: La obtención de datos del lado del servidor ocurre en loaders de layout/página para SEO y acceso seguro.
+3. **Capa de Servicios**: La lógica de negocio se ejecuta, combinando consultas Supabase, llamadas IA y reglas de dominio.
+4. **Base de Datos**: Supabase impone Seguridad a Nivel de Fila, devolviendo datos con alcance.
+5. **Hidratación del Cliente**: React hidrata componentes del cliente, conectándose a hooks personalizados para actualizaciones y mutaciones.
+6. **Actualizaciones en Tiempo Real**: Las suscripciones Supabase notifican a hooks/servicios, actualizando gráficos y paneles en vivo.
 
-## Integration Points
+## Puntos de Integración
 
-- **Supabase Auth**: Handles session tokens consumed by NextAuth.
-- **Supabase Postgres**: Primary data store with migrations under `supabase/migrations`.
-- **Supabase Storage**: Stores files, lesson attachments (future).
-- **AI Providers**: Google Gemini for insight generation (per feature spec).
-- **External Cron (planned)**: For scheduled tasks (student monitoring, analytics refresh).
+- **Supabase Auth**: Maneja tokens de sesión consumidos por NextAuth.
+- **Supabase Postgres**: Almacén de datos principal con migraciones bajo `supabase/migrations`.
+- **Supabase Storage**: Almacena archivos, adjuntos de lecciones (futuro).
+- **Proveedores IA**: Google Gemini para generación de perspectivas (por especificación de característica).
+- **Cron Externo (planificado)**: Para tareas programadas (monitoreo estudiantil, actualización de análisis).
 
-## Non-Functional Requirements
+## Requisitos No Funcionales
 
-### Security
+### Seguridad
 
-- Enforced HTTPS, secure cookies, CSRF protection via NextAuth.
-- RLS policies restrict data access to owning teachers/admins.
-- API endpoints validate input through Zod schemas before persistence.
+- HTTPS aplicado, cookies seguras, protección CSRF vía NextAuth.
+- Las políticas RLS restringen acceso a datos para profesores/admins propietarios.
+- Los endpoints API validan entrada a través de esquemas Zod antes de persistencia.
 
-### Performance
+### Rendimiento
 
-- Server Components minimize client payloads.
-- Service layer caches frequent data and reuses Supabase connections.
-- Charts load lazily; skeleton components maintain perceived performance.
-- Turbopack aids rapid development builds; Next.js incremental static regeneration (ISR) available for future marketing pages.
+- Los Componentes del Servidor minimizan cargas útiles del cliente.
+- La capa de servicios caché frecuentes datos y reutiliza conexiones Supabase.
+- Los gráficos cargan perezosamente; los componentes esqueleto mantienen rendimiento percibido.
+- Turbopack ayuda a builds de desarrollo rápidos; la regeneración estática incremental de Next.js (ISR) disponible para páginas de marketing futuras.
 
-### Observability (Planned Enhancements)
+### Observabilidad (Mejoras Planificadas)
 
-- Structured logging via `app/lib/logger.ts`.
-- Integration with Supabase logs and Vercel analytics.
-- Monitoring for AI cost, response latency, and error rates.
+- Logging estructurado vía `app/lib/logger.ts`.
+- Integración con logs de Supabase y análisis de Vercel.
+- Monitoreo de costo IA, latencia de respuesta y tasas de error.
 
-## Deployment Pipeline
+## Pipeline de Despliegue
 
-1. **Pull Request Checks**
+1. **Verificaciones de Pull Request**
    - `pnpm run lint -- --fix`
    - `pnpm run test -- --silent`
    - `pnpm run build`
-   - `pnpm docs:test` (documentation validation)
-2. **Preview Deployments** (Vercel)
-3. **Supabase Migrations**
-   - Applied via CLI or CI step before production deploy.
-4. **Production Deployment**
-   - Automatic after main-branch merge with all checks green.
+   - `pnpm docs:test` (validación de documentación)
+2. **Despliegues de Previsualización** (Vercel)
+3. **Migraciones Supabase**
+   - Aplicadas vía CLI o paso CI antes del despliegue de producción.
+4. **Despliegue de Producción**
+   - Automático después de fusión de rama principal con todas las verificaciones en verde.
 
-## Related Documentation
+## Documentación Relacionada
 
-- [Data Model](data-model.md)
-- [Performance & Security](performance-security.md)
-- [Feature Lifecycle](../processes/feature-lifecycle.md)
-- [Student Assessment Insights](../features/student-assessment-insights/overview.md)
-- [Student Monitoring System](/docs/features/student-monitoring-system/overview)
+- [Modelo de Datos](data-model.md)
+- [Rendimiento y Seguridad](performance-security.md)
+- [Ciclo de Vida de Características](../processes/feature-lifecycle.md)
+- [Perspectivas de Evaluación Estudiantil](../features/student-assessment-insights/overview.md)
+- [Sistema de Monitoreo Estudiantil](/docs/developer/features/student-monitoring-system/overview)

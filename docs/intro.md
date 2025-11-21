@@ -1,87 +1,87 @@
 ---
 id: intro
-title: Mehmiro Documentation Hub
-sidebar_label: Overview
+title: Centro de Documentación Mehmiro
+sidebar_label: Resumen General
 ---
 
-# Mehmiro Documentation Hub
+# Centro de Documentación Mehmiro
 
-Welcome to the centralized knowledge base for Mehmiro, the AI-powered educational assessment platform. This Docusaurus portal consolidates architectural rules, development standards, feature specifications, and BDD/TDD workflows into a single, continuously updated site.
+Bienvenido a la base de conocimiento centralizada de Mehmiro, la plataforma de evaluación educativa impulsada por IA. Este portal Docusaurus consolida reglas arquitectónicas, estándares de desarrollo, especificaciones de características y flujos de trabajo BDD/TDD en un solo sitio continuamente actualizado.
 
-## Documentation Structure
+## Estructura de Documentación
 
-### Foundations
+### Fundamentos
 
-Core principles, vocabulary, and project context that guide all deliverables.
+Principios centrales, vocabulario y contexto del proyecto que guían todos los entregables.
 
-- [Development Persona & Approach](foundations/persona.md)
-- [Project Overview](foundations/project-overview.md)
-- [Glossary](foundations/glossary.md)
-- [Core Guidelines](foundations/core-guidelines.md)
+- [Persona de Desarrollo y Enfoque](foundations/persona.md)
+- [Resumen del Proyecto](foundations/project-overview.md)
+- [Glosario](foundations/glossary.md)
+- [Pautas Centrales](foundations/core-guidelines.md)
 
-### Architecture
+### Arquitectura
 
-System blueprints, data modeling, and non-functional requirements.
+Planos del sistema, modelado de datos y requisitos no funcionales.
 
-- [System Architecture](architecture/system-architecture.md)
-- [Data Model](architecture/data-model.md)
-- [Performance & Security](architecture/performance-security.md)
+- [Arquitectura del Sistema](architecture/system-architecture.md)
+- [Modelo de Datos](architecture/data-model.md)
+- [Rendimiento y Seguridad](architecture/performance-security.md)
 
-### Standards
+### Estándares
 
-Engineering guidelines for consistent, production-ready delivery.
+Pautas de ingeniería para entrega consistente y lista para producción.
 
-- [Coding Standards](standards/coding-standards.md)
-- [UI Guidelines](standards/ui-guidelines.md)
-- [Testing Strategy](standards/testing-strategy.md)
+- [Estándares de Codificación](standards/coding-standards.md)
+- [Pautas de Interfaz de Usuario](standards/ui-guidelines.md)
+- [Estrategia de Pruebas](standards/testing-strategy.md)
 
-### Processes
+### Procesos
 
-Operational playbooks, governance, and feature lifecycle definitions.
+Manuales operativos, gobierno y definiciones del ciclo de vida de características.
 
-- [Feature Lifecycle](processes/feature-lifecycle.md)
-- [Documentation Governance](processes/documentation-governance.md)
+- [Ciclo de Vida de Características](processes/feature-lifecycle.md)
+- [Gobernanza de Documentación](processes/documentation-governance.md)
 
-### Features
+### Características
 
-Detailed feature specifications, including BDD scenarios, implementation notes, and test assets.
+Especificaciones detalladas de características, incluyendo escenarios BDD, notas de implementación y activos de prueba.
 
-- [Student Assessment Insights](features/student-assessment-insights/overview.md)
-- [Student Monitoring System](features/student-monitoring-system/overview.md)
+- [Perspectivas de Evaluación Estudiantil](features/student-assessment-insights/overview.md)
+- [Sistema de Monitoreo Estudiantil](features/student-monitoring-system/overview.md)
 
-### Reference
+### Referencia
 
-API, hooks, and service documentation that support implementation details.
+API, hooks y documentación de servicios que respaldan detalles de implementación.
 
-_Coming soon — API, hooks, and service references will be documented alongside code generation tooling._
+_Próximamente — Las referencias de API, hooks y servicios se documentarán junto con las herramientas de generación de código._
 
-## Quick Navigation
+## Navegación Rápida
 
-| Goal                          | Path                                                       |
+| Objetivo                          | Ruta                                                       |
 | ----------------------------- | ---------------------------------------------------------- |
-| Understand the product vision | [Project Overview](foundations/project-overview.md)        |
-| Align on engineering persona  | [Development Persona & Approach](foundations/persona.md)   |
-| Start a new feature           | [Feature Lifecycle](processes/feature-lifecycle.md)        |
-| Write BDD scenarios           | [Testing Strategy](standards/testing-strategy.md)          |
-| Check coding rules            | [Coding Standards](standards/coding-standards.md)          |
-| Review system architecture    | [System Architecture](architecture/system-architecture.md) |
+| Entender la visión del producto | [Resumen del Proyecto](foundations/project-overview.md)        |
+| Alinear en persona de ingeniería  | [Persona de Desarrollo y Enfoque](foundations/persona.md)   |
+| Iniciar una nueva característica           | [Ciclo de Vida de Características](processes/feature-lifecycle.md)        |
+| Escribir escenarios BDD           | [Estrategia de Pruebas](standards/testing-strategy.md)          |
+| Revisar reglas de codificación            | [Estándares de Codificación](standards/coding-standards.md)          |
+| Revisar arquitectura del sistema    | [Arquitectura del Sistema](architecture/system-architecture.md) |
 
-## Keeping Documentation in Sync
+## Mantener la Documentación Sincronizada
 
-Follow the rules below to ensure the portal stays aligned with the codebase:
+Sigue las reglas a continuación para asegurar que el portal se mantenga alineado con el código base:
 
-1. Update relevant documentation alongside every code change.
-2. Use the provided templates in each section when adding new content.
-3. Validate links and cross-references before merging.
-4. Run `pnpm docs:build` and `pnpm docs:test` (see [Documentation Governance](processes/documentation-governance.md)) prior to submitting pull requests.
+1. Actualiza la documentación relevante junto con cada cambio de código.
+2. Usa las plantillas proporcionadas en cada sección al agregar nuevo contenido.
+3. Valida enlaces y referencias cruzadas antes de fusionar.
+4. Ejecuta `pnpm docs:build` y `pnpm docs:test` (ver [Gobernanza de Documentación](processes/documentation-governance.md)) antes de enviar solicitudes de extracción.
 
-## Related Resources
+## Recursos Relacionados
 
-- [Repository README](https://github.com/gentilmente/mehimro-docs#readme)
-- [Tests Suite](https://github.com/gentilmente/mehimro-docs/tree/main/tests)
-- [Component Library](https://github.com/gentilmente/mehimro-docs/tree/main/components)
+- [README del Repositorio](https://github.com/gentilmente/mehimro-docs#readme)
+- [Suite de Pruebas](https://github.com/gentilmente/mehimro-docs/tree/main/tests)
+- [Biblioteca de Componentes](https://github.com/gentilmente/mehimro-docs/tree/main/components)
 - [Storybook](https://mehmiro-storybook.vercel.app)
 
 ---
 
-_This site is built with Docusaurus 3.9 and is intended to serve as the living source of truth for Mehmiro’s architecture, standards, and feature documentation._
+_Este sitio está construido con Docusaurus 3.9 y está destinado a servir como la fuente de verdad viva para la arquitectura, estándares y documentación de características de Mehmiro._

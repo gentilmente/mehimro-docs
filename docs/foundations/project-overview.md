@@ -1,118 +1,118 @@
 ---
 id: project-overview
-title: Project Overview
-sidebar_label: Project Overview
+title: Resumen del Proyecto
+sidebar_label: Resumen del Proyecto
 ---
 
-# Mehmiro — AI-Powered Educational Assessment Platform
+# Mehmiro — Plataforma de Evaluación Educativa Impulsada por IA
 
-## Product Summary
+## Resumen del Producto
 
-Mehmiro helps teachers streamline student evaluation, track progress, and generate insights through AI-powered automation. The platform combines class administration, lesson planning, and performance analytics into a cohesive, privacy-first experience.
+Mehmiro ayuda a los profesores a optimizar la evaluación estudiantil, hacer seguimiento del progreso y generar perspectivas a través de la automatización impulsada por IA. La plataforma combina administración de clases, planificación de lecciones y análisis de rendimiento en una experiencia cohesiva y centrada en la privacidad.
 
-## Core Value Propositions
+## Propuestas de Valor Central
 
-### 🤖 AI-Powered Assessment
+### 🤖 Evaluación Impulsada por IA
 
-- Automated analysis of teacher, student, family, and AI-submitted assessments.
-- Context-aware suggestions tailored to class variables and scales.
-- Actionable feedback aligned with student history and lesson objectives.
+- Análisis automatizado de evaluaciones presentadas por profesores, estudiantes, familias e IA.
+- Sugerencias conscientes del contexto adaptadas a variables y escalas de clase.
+- Retroalimentación práctica alineada con el historial estudiantil y objetivos de lección.
 
-### 📊 Student Progress Tracking
+### 📊 Seguimiento del Progreso Estudiantil
 
-- Interactive visualizations (radar, linear, polar charts) covering multiple periods.
-- Trend detection, comparative analytics, and cumulative performance summaries.
-- Fast filtering by assessment source, variable, session, or time range.
+- Visualizaciones interactivas (gráficos de radar, lineales, polares) que cubren múltiples períodos.
+- Detección de tendencias, análisis comparativos y resúmenes de rendimiento acumulativo.
+- Filtrado rápido por fuente de evaluación, variable, sesión o rango de tiempo.
 
-### 👥 Class & Lesson Management
+### 👥 Gestión de Clases y Lecciones
 
-- Class dashboards with roster, assessment variables, lesson planning, and scheduling.
-- Student profiles with historical context, AI insights, and intervention flags.
-- Integrated lesson planning that ties learning objectives to assessment outcomes.
+- Paneles de clase con lista de estudiantes, variables de evaluación, planificación de lecciones y programación.
+- Perfiles estudiantiles con contexto histórico, perspectivas de IA e indicadores de intervención.
+- Planificación de lecciones integrada que conecta objetivos de aprendizaje con resultados de evaluación.
 
-### 🔐 Privacy-First Design
+### 🔐 Diseño Centrado en la Privacidad
 
-- Students use secret aliases; personal identifiers are excluded from storage.
-- Strict access control for teachers, administrators, assistants, and family members.
-- Compliance-ready design aligned with educational data protection.
+- Los estudiantes usan alias secretos; los identificadores personales se excluyen del almacenamiento.
+- Control de acceso estricto para profesores, administradores, asistentes y miembros de la familia.
+- Diseño preparado para cumplimiento alineado con la protección de datos educativos.
 
-## Technology Stack
+## Stack Tecnológico
 
-| Layer          | Tooling                                      | Notes                                                        |
-| -------------- | -------------------------------------------- | ------------------------------------------------------------ |
-| Frontend       | **Next.js 15**, **React 19**, **TypeScript** | App Router, server components, mobile-first UI.              |
-| Styling        | **Tailwind CSS**, shadcn/ui                  | Utility-first styling with reusable primitives.              |
-| Visualization  | **Chart.js**                                 | Radar/linear/polar charts embedded in student dashboards.    |
-| Backend & Data | **Supabase (PostgreSQL)**                    | Row Level Security (RLS), real-time updates, migrations.     |
-| Authentication | **NextAuth**                                 | Session management, role-based access.                       |
-| AI Integration | Google Gemini (planned)                      | Structured prompts for assessments, diagnostics, onboarding. |
-| Testing        | **Vitest**, **Playwright**, **Cucumber**     | Unit, integration, BDD, and E2E coverage.                    |
-| Tooling        | **ESLint**, **Prettier**, **PNPM**           | Consistent formatting, linting, and package management.      |
+| Capa          | Herramientas                                    | Notas                                                        |
+| -------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| Frontend       | **Next.js 15**, **React 19**, **TypeScript**    | App Router, componentes del servidor, UI móvil-primera.      |
+| Estilos        | **Tailwind CSS**, shadcn/ui                     | Estilos utilitarios con primitivas reutilizables.            |
+| Visualización  | **Chart.js**                                    | Gráficos de radar/lineales/polares embebidos en paneles estudiantiles. |
+| Backend & Datos| **Supabase (PostgreSQL)**                       | Seguridad a Nivel de Fila (RLS), actualizaciones en tiempo real, migraciones. |
+| Autenticación  | **NextAuth**                                    | Gestión de sesiones, acceso basado en roles.                 |
+| Integración IA | Google Gemini (planificado)                     | Prompts estructurados para evaluaciones, diagnósticos, incorporación. |
+| Pruebas        | **Vitest**, **Playwright**, **Cucumber**        | Cobertura de unidad, integración, BDD y E2E.                 |
+| Herramientas   | **ESLint**, **Prettier**, **PNPM**              | Formato consistente, linting y gestión de paquetes.          |
 
-## Development Principles
+## Principios de Desarrollo
 
-### Mobile-First Experience
+### Experiencia Móvil-Primera
 
-- Design components for phone layouts first, optimizing for touch interactions.
-- Ensure skeleton/loading states exist for every major UI view.
+- Diseña componentes para layouts de teléfono primero, optimizando para interacciones táctiles.
+- Asegura que existan estados esqueleto/carga para cada vista principal de UI.
 
-### Consistent Component Patterns
+### Patrones de Componentes Consistentes
 
-- Reuse shared components and hooks rather than creating duplicates.
-- Keep component responsibilities focused and limit prop surface area.
+- Reutiliza componentes y hooks compartidos en lugar de crear duplicados.
+- Mantén las responsabilidades de componentes enfocadas y limita el área de superficie de props.
 
-### Testing Discipline
+### Disciplina de Pruebas
 
-- Follow TDD/BDD workflow: define scenarios, write failing tests, implement, refactor.
-- Maintain ≥80% code coverage and ensure scenarios are reflected in automated suites.
-- Include targeted Playwright tests for critical user flows.
+- Sigue el flujo de trabajo TDD/BDD: define escenarios, escribe pruebas fallidas, implementa, refactoriza.
+- Mantén ≥80% de cobertura de código y asegura que los escenarios se reflejen en suites automatizadas.
+- Incluye pruebas Playwright dirigidas para flujos de usuario críticos.
 
-### Documentation & Governance
+### Documentación y Gobernanza
 
-- Treat documentation as a first-class deliverable.
-- Update related documents, feature specs, and diagrams with every change.
-- Run documentation validation (`pnpm docs:build` & `pnpm docs:test`) before PR submission.
+- Trata la documentación como un entregable de primera clase.
+- Actualiza documentos relacionados, especificaciones de características y diagramas con cada cambio.
+- Ejecuta validación de documentación (`pnpm docs:build` & `pnpm docs:test`) antes de envío de PR.
 
-## User Roles
+## Roles de Usuario
 
-| Role                    | Description           | Capabilities                                                  |
-| ----------------------- | --------------------- | ------------------------------------------------------------- |
-| Teachers                | Primary users         | Manage classes, assess students, view insights, plan lessons. |
-| Administrators          | Operational oversight | Manage rosters, monitor analytics, configure system behavior. |
-| Assistants / Tutors     | Support staff         | Limited access to class dashboards and lesson context.        |
-| Family Members (Future) | Guardians             | Read-only access to student summaries and insights.           |
-| Students                | Protected             | No direct access (aliases only).                              |
+| Rol                       | Descripción        | Capacidades                                                     |
+| ------------------------- | ------------------ | --------------------------------------------------------------- |
+| Profesores                | Usuarios principales| Gestionar clases, evaluar estudiantes, ver perspectivas, planificar lecciones. |
+| Administradores           | Supervisión operacional | Gestionar listas de estudiantes, monitorear análisis, configurar comportamiento del sistema. |
+| Asistentes / Tutores      | Personal de apoyo  | Acceso limitado a paneles de clase y contexto de lecciones.     |
+| Miembros de Familia (Futuro) | Tutores           | Acceso de solo lectura a resúmenes e perspectivas estudiantiles.|
+| Estudiantes               | Protegidos         | Sin acceso directo (solo alias).                                |
 
-## Security & Compliance
+## Seguridad y Cumplimiento
 
-- HTTPS enforced across environments.
-- Environment variables managed via Next.js conventions and Supabase project settings.
-- Audit-ready logging for AI interactions and assessment changes.
-- Integration with Supabase RLS for granular data access policies.
+- HTTPS aplicado en todos los entornos.
+- Variables de entorno gestionadas mediante convenciones de Next.js y configuraciones del proyecto Supabase.
+- Logging listo para auditoría para interacciones de IA y cambios de evaluación.
+- Integración con Supabase RLS para políticas granulares de acceso a datos.
 
-## Performance Considerations
+## Consideraciones de Rendimiento
 
-- SSR or static rendering for SEO-critical pages.
-- Intelligent caching at service layer, with invalidation tied to assessment updates.
-- Batched Supabase queries, database indexes, and consistent pagination.
-- Turbopack-enabled development builds for rapid feedback.
+- SSR o renderizado estático para páginas críticas de SEO.
+- Caché inteligente en capa de servicios, con invalidación vinculada a actualizaciones de evaluación.
+- Consultas Supabase por lotes, índices de base de datos y paginación consistente.
+- Builds de desarrollo habilitados con Turbopack para retroalimentación rápida.
 
-## Product Roadmap (Highlights)
+## Hoja de Ruta del Producto (Aspectos Destacados)
 
-| Phase      | Focus                    | Summary                                                     |
-| ---------- | ------------------------ | ----------------------------------------------------------- |
-| Short Term | i18n & Multi-language UI | Add Spanish/English support, language preferences.          |
-| Short Term | Advanced Analytics       | Predictive performance metrics, cohort comparisons.         |
-| Mid Term   | Integrations             | LMS connectors, parent portal, external assessment imports. |
-| Mid Term   | Real-time Collaboration  | Shared lesson planning, teacher messaging.                  |
-| Long Term  | Mobile & Offline         | PWA capabilities and native app exploration.                |
+| Fase       | Enfoque                   | Resumen                                                     |
+| ---------- | ------------------------- | ----------------------------------------------------------- |
+| Corto Plazo| i18n & UI Multi-idioma    | Añadir soporte español/inglés, preferencias de idioma.      |
+| Corto Plazo| Análisis Avanzado         | Métricas de rendimiento predictivo, comparaciones de cohortes. |
+| Mediano Plazo | Integraciones           | Conectores LMS, portal de padres, importaciones de evaluación externa. |
+| Mediano Plazo | Colaboración en Tiempo Real | Planificación de lecciones compartida, mensajería de profesores.      |
+| Largo Plazo | Móvil y Sin Conexión      | Capacidades PWA y exploración de aplicación nativa.         |
 
-## Referenced Documentation
+## Documentación Referenciada
 
-- [System Architecture](../architecture/system-architecture.md)
-- [Coding Standards](../standards/coding-standards.md)
-- [Feature Lifecycle](../processes/feature-lifecycle.md)
-- [Student Assessment Insights](../features/student-assessment-insights/overview.md)
-- [Student Monitoring System](../features/student-monitoring-system/overview)
+- [Arquitectura del Sistema](../developer/architecture/system-architecture.md)
+- [Estándares de Codificación](../developer/standards/coding-standards.md)
+- [Ciclo de Vida de Características](../developer/processes/feature-lifecycle.md)
+- [Perspectivas de Evaluación Estudiantil](../developer/features/student-assessment-insights/overview.md)
+- [Sistema de Monitoreo Estudiantil](../developer/features/student-monitoring-system/overview)
 
 ---

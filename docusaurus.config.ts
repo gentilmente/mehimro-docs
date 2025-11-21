@@ -7,8 +7,8 @@ import type * as Preset from '@docusaurus/preset-classic';
  * This file runs in Node.js; avoid browser APIs or JSX here.
  */
 const config: Config = {
-  title: 'Mehmiro Documentation Hub',
-  tagline: 'Centralized architecture, standards, and BDD/TDD workflows',
+  title: 'Centro de Documentación Mehmiro',
+  tagline: 'Arquitectura centralizada, estándares y flujos de trabajo BDD/TDD',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -53,7 +53,10 @@ const config: Config = {
           routeBasePath: '/docs',
           editUrl: 'https://github.com/gentilmente/mehimro-docs/tree/main/docs-portal',
           showLastUpdateAuthor: true,
-          showLastUpdateTime: true
+          showLastUpdateTime: true,
+          path: 'docs',
+          includeCurrentVersion: true,
+          onlyIncludeVersions: ['current'],
         },
         blog: false,
         pages: {
@@ -72,9 +75,9 @@ const config: Config = {
       disableSwitch: false
     },
     navbar: {
-      title: 'Mehmiro Docs',
+      title: 'Documentación Mehmiro',
       logo: {
-        alt: 'Mehmiro Logo',
+        alt: 'Logo de Mehmiro',
         src: 'img/logo.svg'
       },
       items: [
@@ -82,19 +85,19 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'userSidebar',
           position: 'left',
-          label: 'User Guide'
+          label: 'Guía de Usuario'
         },
         {
           type: 'docSidebar',
           sidebarId: 'devSidebar',
           position: 'left',
-          label: 'Developer Hub'
+          label: 'Centro de Desarrollo'
         },
         {
           type: 'docSidebar',
           sidebarId: 'researchSidebar',
           position: 'left',
-          label: 'Research'
+          label: 'Investigación'
         },
         {
           type: 'dropdown',
@@ -104,9 +107,13 @@ const config: Config = {
             {
               type: 'doc',
               docId: 'research/research-intro',
-              label: 'Research Blog'
+              label: 'Blog de Investigación'
             }
           ]
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           href: 'https://github.com/gentilmente/mehimro-docs',
@@ -119,36 +126,36 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Sections',
+          title: 'Secciones',
           items: [
-            { label: 'Foundations', to: '/docs/foundations/project-overview' },
+            { label: 'Fundamentos', to: '/docs/foundations/project-overview' },
             {
-              label: 'Architecture',
-              to: '/docs/architecture/system-architecture'
+              label: 'Arquitectura',
+              to: '/docs/developer/architecture/system-architecture'
             },
-            { label: 'Standards', to: '/docs/standards/coding-standards' },
-            { label: 'Processes', to: '/docs/processes/feature-lifecycle' }
+            { label: 'Estándares', to: '/docs/developer/standards/coding-standards' },
+            { label: 'Procesos', to: '/docs/developer/processes/feature-lifecycle' }
           ]
         },
         {
-          title: 'Features',
+          title: 'Características',
           items: [
             {
-              label: 'Feature Catalog',
-              to: '/docs/features/feature-catalog'
+              label: 'Catálogo de Características',
+              to: '/docs/developer/features/feature-catalog'
             },
             {
-              label: 'Student Monitoring System',
-              to: '/docs/features/student-monitoring-system/student-monitoring-system-overview'
+              label: 'Sistema de Monitoreo Estudiantil',
+              to: '/docs/developer/features/student-monitoring-system/overview'
             },
             {
-              label: 'Student Assessment Insights',
-              to: '/docs/features/student-assessment-insights/student-assessment-insights-overview'
+              label: 'Perspectivas de Evaluación Estudiantil',
+              to: '/docs/developer/features/student-assessment-insights/overview'
             }
           ]
         },
         {
-          title: 'External',
+          title: 'Externo',
           items: [
             {
               label: 'Storybook',
@@ -158,7 +165,7 @@ const config: Config = {
           ]
         }
       ],
-      copyright: `© ${new Date().getFullYear()} Mehmiro. Built with ❤️ for educators.`
+      copyright: `© ${new Date().getFullYear()} Mehmiro. Construido con ❤️ para educadores.`
     },
     prism: {
       theme: prismThemes.github,

@@ -1,53 +1,53 @@
 ---
 id: user-intro
-title: Welcome to Mehmiro User Guide
-sidebar_label: Introduction
-description: Everything you need to know to get started with Mehmiro as a teacher or student
+title: Bienvenido a la Guía de Usuario de Mehmiro
+sidebar_label: Introducción
+description: Todo lo que necesitas saber para comenzar con Mehmiro como profesor o estudiante
 ---
 
-# Welcome to Mehmiro
+# Bienvenido a Mehmiro
 
-Mehmiro is a powerful educational platform designed to enhance learning through intelligent assessment and monitoring tools. Whether you're a teacher looking to gain deeper insights into student progress or a student wanting to better understand your own learning journey, this guide will help you make the most of Mehmiro.
+Mehmiro es una poderosa plataforma educativa diseñada para mejorar el aprendizaje a través de herramientas inteligentes de evaluación y monitoreo. Ya seas un profesor que busca obtener una comprensión más profunda del progreso estudiantil o un estudiante que quiere entender mejor su propio viaje de aprendizaje, esta guía te ayudará a aprovechar al máximo Mehmiro.
 
-## What You'll Find Here
+## Lo Que Encontrarás Aquí
 
-### 🎓 **For Teachers**
-- Step-by-step tutorials for setting up your classes
-- Feature guides explaining assessment insights and monitoring tools
-- Best practices for using data to support student success
-- Common questions and troubleshooting
+### 🎓 **Para Profesores**
+- Tutoriales paso a paso para configurar tus clases
+- Guías de características que explican las perspectivas de evaluación y herramientas de monitoreo
+- Mejores prácticas para usar datos para apoyar el éxito estudiantil
+- Preguntas comunes y resolución de problemas
 
-### 👨‍🎓 **For Students**
-- Getting started guides for your first assessment
-- Understanding your learning insights
-- How to use feedback effectively for improvement
-- Navigating the Mehmiro interface
+### 👨‍🎓 **Para Estudiantes**
+- Guías de introducción para tu primera evaluación
+- Entender tus perspectivas de aprendizaje
+- Cómo usar la retroalimentación efectivamente para la mejora
+- Navegar por la interfaz de Mehmiro
 
-## Key Features Overview
+## Resumen de Características Clave
 
-- **Assessment Insights**: Get detailed analytics about student performance and learning patterns
-- **Student Monitoring**: Track progress and identify students who need additional support
-- **Formative Feedback**: Provide timely, constructive feedback that promotes learning growth
-- **Data-Driven Decisions**: Use analytics to make informed educational choices
+- **Perspectivas de Evaluación**: Obtén análisis detallados sobre el rendimiento estudiantil y patrones de aprendizaje
+- **Monitoreo Estudiantil**: Realiza seguimiento del progreso e identifica estudiantes que necesitan apoyo adicional
+- **Retroalimentación Formativa**: Proporciona retroalimentación oportuna y constructiva que promueva el crecimiento del aprendizaje
+- **Decisiones Basadas en Datos**: Usa análisis para tomar decisiones educativas informadas
 
-## Getting Started
+## Comenzando
 
-Choose your path to begin:
+Elige tu ruta para comenzar:
 
-- **[Teachers: Getting Started](/docs/user/getting-started/teacher-setup)** - Set up your class and first assessment
-- **[Students: Getting Started](/docs/user/getting-started/student-access)** - Access assessments and understand your progress
+- **[Profesores: Comenzando](/docs/es/user/getting-started/teacher-setup)** - Configura tu clase y primera evaluación
+- **[Estudiantes: Comenzando](/docs/es/user/getting-started/student-access)** - Accede a evaluaciones y entiende tu progreso
 
 :::tip
-Not sure which guide to start with? Check out our [Quick Start Guide](/docs/user/getting-started/quick-start) for a general overview.
+¿No estás seguro de qué guía comenzar? Consulta nuestra [Guía de Inicio Rápido](/docs/es/user/getting-started/quick-start) para un resumen general.
 :::
 
-## Need Help?
+## ¿Necesitas Ayuda?
 
-If you have questions that aren't answered in these guides:
-- Check our [FAQ](/docs/user/guides/faq)
-- Look for help tips throughout the interface
-- Contact your institution's Mehmiro administrator
+Si tienes preguntas que no están respondidas en estas guías:
+- Consulta nuestro [FAQ](/docs/es/user/guides/faq)
+- Busca consejos de ayuda a lo largo de la interfaz
+- Contacta al administrador de Mehmiro de tu institución
 
 ---
 
-*Welcome to a better way to learn and teach with data.*
+*Bienvenido a una mejor manera de aprender y enseñar con datos.*

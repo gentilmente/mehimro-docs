@@ -1,128 +1,128 @@
 ---
 id: developer-intro
-title: Mehmiro Developer Hub
-sidebar_label: Introduction
-description: Technical documentation, architecture, and contribution guidelines for Mehmiro developers
+title: Centro de Desarrollo Mehmiro
+sidebar_label: Introducción
+description: Documentación técnica, arquitectura y pautas de contribución para desarrolladores de Mehmiro
 ---
 
-# Mehmiro Developer Hub
+# Centro de Desarrollo Mehmiro
 
-Welcome to the Mehmiro Developer Hub - your comprehensive resource for understanding, contributing to, and building upon the Mehmiro educational technology platform.
+Bienvenido al Centro de Desarrollo Mehmiro - tu recurso integral para entender, contribuir y construir sobre la plataforma de tecnología educativa Mehmiro.
 
-## Developer Overview
+## Resumen de Desarrollador
 
-This section contains everything technical teams need to work with Mehmiro, from understanding the system architecture to implementing new features and maintaining code quality.
+Esta sección contiene todo lo que los equipos técnicos necesitan para trabajar con Mehmiro, desde entender la arquitectura del sistema hasta implementar nuevas características y mantener la calidad del código.
 
-## What You'll Find Here
+## Lo Que Encontrarás Aquí
 
-### 🏗️ **System Architecture**
-- High-level system design and component interactions
-- Database schemas and data models
-- Performance considerations and optimization strategies
-- Security frameworks and best practices
+### 🏗️ **Arquitectura del Sistema**
+- Diseño de alto nivel del sistema e interacciones de componentes
+- Esquemas de base de datos y modelos de datos
+- Consideraciones de rendimiento y estrategias de optimización
+- Marcos de seguridad y mejores prácticas
 
-### 🧩 **Feature Documentation**
-- Detailed technical specifications for all Mehmiro features
-- Implementation guides and development workflows
-- BDD scenarios and testing strategies
-- Integration patterns and APIs
+### 🧩 **Documentación de Características**
+- Especificaciones técnicas detalladas para todas las características de Mehmiro
+- Guías de implementación y flujos de trabajo de desarrollo
+- Escenarios BDD y estrategias de prueba
+- Patrones de integración y APIs
 
-### 📋 **Development Standards**
-- Coding standards and style guidelines
-- Testing strategies and quality assurance processes
-- UI/UX design principles and component libraries
-- Documentation governance and maintenance
+### 📋 **Estándares de Desarrollo**
+- Estándares de codificación y pautas de estilo
+- Estrategias de prueba y procesos de aseguramiento de calidad
+- Principios de diseño UI/UX y bibliotecas de componentes
+- Gobernanza y mantenimiento de documentación
 
-### 🔄 **Development Processes**
-- Feature lifecycle and development workflows
-- Code review processes and contribution guidelines
-- Release management and deployment procedures
-- Documentation governance and update processes
+### 🔄 **Procesos de Desarrollo**
+- Ciclo de vida de características y flujos de trabajo de desarrollo
+- Procesos de revisión de código y pautas de contribución
+- Gestión de lanzamientos y procedimientos de despliegue
+- Procesos de actualización y gobernanza de documentación
 
-### 🤝 **Contributing Guidelines**
-- How to contribute to the Mehmiro project
-- Setting up your development environment
-- Code submission and review process
-- Community guidelines and communication channels
+### 🤝 **Pautas de Contribución**
+- Cómo contribuir al proyecto Mehmiro
+- Configurar tu entorno de desarrollo
+- Proceso de envío y revisión de código
+- Pautas comunitarias y canales de comunicación
 
-## Quick Start for Developers
+## Inicio Rápido para Desarrolladores
 
-1. **Review Architecture**: Start with [System Architecture](/docs/developer/architecture/system-architecture)
-2. **Understand Standards**: Read [Coding Standards](/docs/developer/standards/coding-standards)
-3. **Set Up Environment**: Follow [Development Setup Guide](/docs/developer/development-setup)
-4. **Learn Processes**: Understand [Feature Lifecycle](/docs/developer/processes/feature-lifecycle)
+1. **Revisar Arquitectura**: Comienza con [Arquitectura del Sistema](/docs/es/developer/architecture/system-architecture)
+2. **Entender Estándares**: Lee [Estándares de Codificación](/docs/es/developer/standards/coding-standards)
+3. **Configurar Entorno**: Sigue [Guía de Configuración de Desarrollo](/docs/es/developer/development-setup)
+4. **Aprender Procesos**: Entiende [Ciclo de Vida de Características](/docs/es/developer/processes/feature-lifecycle)
 
-## Technology Stack
+## Stack Tecnológico
 
-### Core Technologies
+### Tecnologías Principales
 - **Frontend**: React, TypeScript, Tailwind CSS
 - **Backend**: Node.js, Express, PostgreSQL
-- **Mobile**: React Native
-- **Analytics**: Custom analytics engine with privacy focus
+- **Móvil**: React Native
+- **Análisis**: Motor de análisis personalizado con enfoque en privacidad
 
-### Development Tools
-- **Version Control**: Git with GitFlow branching strategy
-- **CI/CD**: Automated testing and deployment pipelines
-- **Documentation**: Docusaurus with custom theming
-- **Testing**: Jest, Cypress, and custom testing frameworks
+### Herramientas de Desarrollo
+- **Control de Versiones**: Git con estrategia de ramificación GitFlow
+- **CI/CD**: Canalizaciones automatizadas de prueba y despliegue
+- **Documentación**: Docusaurus con personalización de tema
+- **Pruebas**: Jest, Cypress y marcos de prueba personalizados
 
-### Infrastructure
-- **Cloud Platform**: Multi-cloud deployment strategy
-- **Monitoring**: Real-time application monitoring
-- **Security**: OAuth 2.0, JWT, encryption at rest and in transit
+### Infraestructura
+- **Plataforma en la Nube**: Estrategia de despliegue multi-nube
+- **Monitoreo**: Monitoreo de aplicaciones en tiempo real
+- **Seguridad**: OAuth 2.0, JWT, cifrado en reposo y en tránsito
 
-## Key Architectural Principles
+## Principios Arquitectónicos Clave
 
-1. **Privacy-First**: All features built with student privacy as primary concern
-2. **Scalability**: Designed to handle millions of concurrent users
-3. **Accessibility**: WCAG 2.1 AA compliance from day one
-4. **Maintainability**: Clean code, comprehensive tests, and thorough documentation
-5. **Performance**: Sub-second response times for all user interactions
+1. **Privacidad Primero**: Todas las características construidas con la privacidad estudiantil como preocupación principal
+2. **Escalabilidad**: Diseñado para manejar millones de usuarios concurrentes
+3. **Accesibilidad**: Cumplimiento WCAG 2.1 AA desde el primer día
+4. **Mantenibilidad**: Código limpio, pruebas exhaustivas y documentación completa
+5. **Rendimiento**: Tiempos de respuesta menores a un segundo para todas las interacciones de usuario
 
-## Development Workflow
+## Flujo de Trabajo de Desarrollo
 
-### Contribution Process
-1. **Fork & Clone**: Create your own fork of the repository
-2. **Branch**: Create feature branches from `develop`
-3. **Develop**: Implement changes with comprehensive tests
-4. **Review**: Submit pull request with detailed description
-5. **Merge**: Approved changes merged after CI/CD validation
+### Proceso de Contribución
+1. **Fork & Clonar**: Crea tu propio fork del repositorio
+2. **Ramificar**: Crea ramas de características desde `develop`
+3. **Desarrollar**: Implementa cambios con pruebas exhaustivas
+4. **Revisar**: Envía solicitud de extracción con descripción detallada
+5. **Fusionar**: Cambios aprobados fusionados después de validación CI/CD
 
-### Code Quality Standards
-- **Test Coverage**: Minimum 90% code coverage required
-- **Code Review**: All changes require peer review
-- **Documentation**: All public APIs must be documented
-- **Performance**: All features must meet performance benchmarks
+### Estándares de Calidad de Código
+- **Cobertura de Pruebas**: Se requiere cobertura mínima del 90%
+- **Revisión de Código**: Todos los cambios requieren revisión por pares
+- **Documentación**: Todas las APIs públicas deben estar documentadas
+- **Rendimiento**: Todas las características deben cumplir benchmarks de rendimiento
 
-## Getting Help
+## Obtener Ayuda
 
-- **Technical Questions**: Use GitHub Discussions
-- **Bug Reports**: Submit issues with detailed reproduction steps
-- **Feature Requests**: Propose new features through GitHub Issues
-- **Security Issues**: Report privately through security@mehmiro.com
+- **Preguntas Técnicas**: Usa GitHub Discussions
+- **Reportes de Errores**: Envía issues con pasos de reproducción detallados
+- **Solicitudes de Características**: Propón nuevas características a través de GitHub Issues
+- **Problemas de Seguridad**: Reporta privadamente a security@mehmiro.com
 
-## Community
+## Comunidad
 
-### Communication Channels
-- **GitHub**: Code collaboration and issue tracking
-- **Discord**: Real-time developer communication
-- **Slack**: Team coordination and announcements
-- **Email**: Official communications and announcements
+### Canales de Comunicación
+- **GitHub**: Colaboración de código y seguimiento de issues
+- **Discord**: Comunicación de desarrolladores en tiempo real
+- **Slack**: Coordinación de equipo y anuncios
+- **Email**: Comunicaciones oficiales y anuncios
 
-### Developer Resources
-- **API Documentation**: Comprehensive API reference
-- **Component Library**: Reusable UI components and patterns
-- **Testing Framework**: Custom testing utilities and helpers
-- **Deployment Guide**: Step-by-step deployment instructions
+### Recursos para Desarrolladores
+- **Documentación de API**: Referencia API integral
+- **Biblioteca de Componentes**: Componentes de UI reutilizables y patrones
+- **Marco de Pruebas**: Utilidades de prueba personalizadas y ayudantes
+- **Guía de Despliegue**: Instrucciones de despliegue paso a paso
 
-## Next Steps
+## Próximos Pasos
 
-Ready to start developing? Begin with our technical foundation:
+¿Listo para comenzar a desarrollar? Comienza con nuestra base técnica:
 
-- **[System Architecture](/docs/developer/architecture/system-architecture)** - Understand how Mehmiro works
-- **[Development Setup](/docs/developer/development-setup)** - Get your environment ready
-- **[Contributing Guidelines](/docs/developer/contributing)** - Learn how to contribute effectively
+- **[Arquitectura del Sistema](/docs/es/developer/architecture/system-architecture)** - Entiende cómo funciona Mehmiro
+- **[Configuración de Desarrollo](/docs/es/developer/development-setup)** - Prepara tu entorno
+- **[Pautas de Contribución](/docs/es/developer/contributing)** - Aprende cómo contribuir efectivamente
 
 ---
 
-*Join our community of developers working to transform education through technology.*
+*Únete a nuestra comunidad de desarrolladores trabajando para transformar la educación a través de la tecnología.*
