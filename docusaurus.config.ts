@@ -45,7 +45,19 @@ const config: Config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true
         },
-        blog: false,
+        blog: {
+          blogTitle: 'Mehmiro Research & Updates',
+          blogDescription: 'Latest research findings, feature updates, and educational insights from the Mehmiro team',
+          postsPerPage: 'ALL',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'Recent Posts',
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Mehmiro Educational Technology.`,
+          },
+        },
         pages: {
           path: 'src/pages',
           routeBasePath: '/'
@@ -70,27 +82,39 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'mehmiroSidebar',
+          sidebarId: 'userSidebar',
           position: 'left',
-          label: 'Documentation'
+          label: 'User Guide'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'devSidebar',
+          position: 'left',
+          label: 'Developer Hub'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'researchSidebar',
+          position: 'left',
+          label: 'Research'
         },
         {
           type: 'doc',
-          docId: 'processes/feature-lifecycle',
+          docId: 'research/intro',
           position: 'left',
-          label: 'Feature Lifecycle'
+          label: 'Research'
         },
         {
-          type: 'doc',
-          docId: 'standards/testing-strategy',
+          type: 'dropdown',
+          label: 'Blog',
           position: 'left',
-          label: 'Testing Strategy'
-        },
-        {
-          type: 'doc',
-          docId: 'features/feature-catalog',
-          position: 'left',
-          label: 'Features'
+          items: [
+            {
+              type: 'doc',
+              docId: 'research/intro',
+              label: 'Research Blog'
+            }
+          ]
         },
         {
           href: 'https://github.com/gentilmente/mehimro-docs',
