@@ -97,19 +97,13 @@ const config: Config = {
           label: 'Research'
         },
         {
-          type: 'doc',
-          docId: 'research/intro',
-          position: 'left',
-          label: 'Research'
-        },
-        {
           type: 'dropdown',
           label: 'Blog',
           position: 'left',
           items: [
             {
               type: 'doc',
-              docId: 'research/intro',
+              docId: 'research/research-intro',
               label: 'Research Blog'
             }
           ]
