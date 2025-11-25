@@ -50,7 +50,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/docs',
+          routeBasePath: '/',
           editUrl: 'https://github.com/gentilmente/mehimro-docs/tree/main/docs-portal',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -59,10 +59,7 @@ const config: Config = {
           onlyIncludeVersions: ['current'],
         },
         blog: false,
-        pages: {
-          path: 'src/pages',
-          routeBasePath: '/'
-        },
+        pages: false,
         theme: {}
       } satisfies Preset.Options
     ]
@@ -83,33 +80,21 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'userSidebar',
+          sidebarId: 'guiaSidebar',
           position: 'left',
           label: 'Guía de Usuario'
         },
         {
           type: 'docSidebar',
-          sidebarId: 'devSidebar',
-          position: 'left',
-          label: 'Centro de Desarrollo'
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'researchSidebar',
+          sidebarId: 'investigacionSidebar',
           position: 'left',
           label: 'Investigación'
         },
         {
-          type: 'dropdown',
-          label: 'Blog',
+          type: 'docSidebar',
+          sidebarId: 'desarrolladoresSidebar',
           position: 'left',
-          items: [
-            {
-              type: 'doc',
-              docId: 'research/research-intro',
-              label: 'Blog de Investigación'
-            }
-          ]
+          label: 'Centro de Desarrollo'
         },
         {
           type: 'localeDropdown',
@@ -126,32 +111,26 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Secciones',
+          title: 'Guía de Usuario',
           items: [
-            { label: 'Fundamentos', to: '/docs/foundations/project-overview' },
-            {
-              label: 'Arquitectura',
-              to: '/docs/developer/architecture/system-architecture'
-            },
-            { label: 'Estándares', to: '/docs/developer/standards/coding-standards' },
-            { label: 'Procesos', to: '/docs/developer/processes/feature-lifecycle' }
+            { label: 'Comenzar', to: '/guia/user-intro' },
+            { label: 'Tutoriales', to: '/guia/tutorials/creating-your-first-assessment' },
+            { label: 'Preguntas Frecuentes', to: '/guia/guides/frequently-asked-questions' }
           ]
         },
         {
-          title: 'Características',
+          title: 'Investigación',
           items: [
-            {
-              label: 'Catálogo de Características',
-              to: '/docs/developer/features/feature-catalog'
-            },
-            {
-              label: 'Sistema de Monitoreo Estudiantil',
-              to: '/docs/developer/features/student-monitoring-system/overview'
-            },
-            {
-              label: 'Perspectivas de Evaluación Estudiantil',
-              to: '/docs/developer/features/student-assessment-insights/overview'
-            }
+            { label: 'Metodología', to: '/investigacion/methodology/formative-feedback-methodology' },
+            { label: 'Papers', to: '/investigacion/papers/realtime-assessment-impact' }
+          ]
+        },
+        {
+          title: 'Desarrolladores',
+          items: [
+            { label: 'Arquitectura', to: '/desarrolladores/architecture/system-architecture' },
+            { label: 'Estándares', to: '/desarrolladores/standards/coding-standards' },
+            { label: 'Características', to: '/desarrolladores/features/feature-catalog' }
           ]
         },
         {

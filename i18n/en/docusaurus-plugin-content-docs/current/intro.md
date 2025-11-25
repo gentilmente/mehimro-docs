@@ -1,87 +1,81 @@
 ---
 id: intro
+slug: /
 title: Mehmiro Documentation Hub
-sidebar_label: Overview
+sidebar_label: Home
+hide_table_of_contents: true
 ---
 
 # Mehmiro Documentation Hub
 
-Welcome to the centralized knowledge base for Mehmiro, the AI-powered educational assessment platform. This Docusaurus portal consolidates architectural rules, development standards, feature specifications, and BDD/TDD workflows into a single, continuously updated site.
-
-## Documentation Structure
-
-### Foundations
-
-Core principles, vocabulary, and project context that guide all deliverables.
-
-- [Development Persona & Approach](foundations/persona.md)
-- [Project Overview](foundations/project-overview.md)
-- [Glossary](foundations/glossary.md)
-- [Core Guidelines](foundations/core-guidelines.md)
-
-### Architecture
-
-System blueprints, data modeling, and non-functional requirements.
-
-- [System Architecture](architecture/system-architecture.md)
-- [Data Model](architecture/data-model.md)
-- [Performance & Security](architecture/performance-security.md)
-
-### Standards
-
-Engineering guidelines for consistent, production-ready delivery.
-
-- [Coding Standards](standards/coding-standards.md)
-- [UI Guidelines](standards/ui-guidelines.md)
-- [Testing Strategy](standards/testing-strategy.md)
-
-### Processes
-
-Operational playbooks, governance, and feature lifecycle definitions.
-
-- [Feature Lifecycle](processes/feature-lifecycle.md)
-- [Documentation Governance](processes/documentation-governance.md)
-
-### Features
-
-Detailed feature specifications, including BDD scenarios, implementation notes, and test assets.
-
-- [Student Assessment Insights](features/student-assessment-insights/overview.md)
-- [Student Monitoring System](features/student-monitoring-system/overview.md)
-
-### Reference
-
-API, hooks, and service documentation that support implementation details.
-
-_Coming soon — API, hooks, and service references will be documented alongside code generation tooling._
-
-## Quick Navigation
-
-| Goal                          | Path                                                       |
-| ----------------------------- | ---------------------------------------------------------- |
-| Understand the product vision | [Project Overview](foundations/project-overview.md)        |
-| Align on engineering persona  | [Development Persona & Approach](foundations/persona.md)   |
-| Start a new feature           | [Feature Lifecycle](processes/feature-lifecycle.md)        |
-| Write BDD scenarios           | [Testing Strategy](standards/testing-strategy.md)          |
-| Check coding rules            | [Coding Standards](standards/coding-standards.md)          |
-| Review system architecture    | [System Architecture](architecture/system-architecture.md) |
-
-## Keeping Documentation in Sync
-
-Follow the rules below to ensure the portal stays aligned with the codebase:
-
-1. Update relevant documentation alongside every code change.
-2. Use the provided templates in each section when adding new content.
-3. Validate links and cross-references before merging.
-4. Run `pnpm docs:build` and `pnpm docs:test` (see [Documentation Governance](processes/documentation-governance.md)) prior to submitting pull requests.
-
-## Related Resources
-
-- [Repository README](https://github.com/gentilmente/mehimro-docs#readme)
-- [Tests Suite](https://github.com/gentilmente/mehimro-docs/tree/main/tests)
-- [Component Library](https://github.com/gentilmente/mehimro-docs/tree/main/components)
-- [Storybook](https://mehmiro-storybook.vercel.app)
+Welcome to the centralized knowledge base for **Mehmiro**, the AI-powered educational assessment platform. Find everything you need based on your role.
 
 ---
 
-_This site is built with Docusaurus 3.9 and is intended to serve as the living source of truth for Mehmiro’s architecture, standards, and feature documentation._
+## 🎓 User Guide
+
+**For Teachers and Students**
+
+Learn how to use Mehmiro step by step, from initial setup to advanced features.
+
+- [🚀 Quick Start](/guia/getting-started/quick-start)
+- [👨‍🏫 Teacher Setup](/guia/getting-started/teacher-setup)
+- [👩‍🎓 Student Access](/guia/getting-started/student-access)
+- [📚 Tutorials](/guia/tutorials/creating-your-first-assessment)
+- [❓ FAQ](/guia/guides/frequently-asked-questions)
+
+[**Explore User Guide →**](/guia/user-intro)
+
+---
+
+## 🔬 Research
+
+**For Academics and Researchers**
+
+Discover the pedagogical methodology, research papers, and academic backing behind Mehmiro.
+
+- [📖 Formative Feedback Methodology](/investigacion/methodology/formative-feedback-methodology)
+- [📄 Research Papers](/investigacion/papers/realtime-assessment-impact)
+
+[**Explore Research →**](/investigacion/research-intro)
+
+---
+
+## 💻 Developer Hub
+
+**For Developers and Contributors**
+
+Technical documentation, system architecture, coding standards, and contribution guides.
+
+### Foundations
+- [📋 Project Overview](/desarrolladores/fundamentos/project-overview)
+- [👤 Development Persona](/desarrolladores/fundamentos/persona)
+- [📚 Glossary](/desarrolladores/fundamentos/glossary)
+- [📏 Core Guidelines](/desarrolladores/fundamentos/core-guidelines)
+
+### Architecture
+- [🏗️ System Architecture](/desarrolladores/architecture/system-architecture)
+- [📊 Data Model](/desarrolladores/architecture/data-model)
+- [🚀 Performance & Security](/desarrolladores/architecture/performance-security)
+
+### Standards
+- [💻 Coding Standards](/desarrolladores/standards/coding-standards)
+- [🎨 UI Guidelines](/desarrolladores/standards/ui-guidelines)
+- [🧪 Testing Strategy](/desarrolladores/standards/testing-strategy)
+
+### Features
+- [📊 Student Assessment Insights](/desarrolladores/features/student-assessment-insights/student-assessment-insights-overview)
+- [👁️ Student Monitoring System](/desarrolladores/features/student-monitoring-system/student-monitoring-system-overview)
+
+[**Explore Developer Hub →**](/desarrolladores/developer-intro)
+
+---
+
+## External Resources
+
+- [📦 Storybook](https://mehmiro-storybook.vercel.app)
+- [🐙 GitHub](https://github.com/gentilmente/mehimro-docs)
+
+---
+
+_This site is built with Docusaurus 3.9 and serves as the source of truth for Mehmiro documentation._
