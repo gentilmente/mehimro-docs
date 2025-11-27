@@ -6,56 +6,70 @@ sidebar_label: Glosario
 
 # Glosario
 
-Este glosario define términos y conceptos clave utilizados a través de la documentación de Mehmiro.
+Este glosario define términos y conceptos clave utilizados a través de la documentación de Mehmiro, basado en la implementación real de la plataforma.
 
 ## A
 
-**Evaluación**: Una evaluación del rendimiento estudiantil, típicamente consistiendo en múltiples variables y métricas.
+**Análisis de IA**: Proceso donde Google Generative AI analiza observaciones estudiantiles y sugiere evaluaciones específicas basadas en contexto.
 
-**Asistente de IA**: Una herramienta impulsada por inteligencia artificial que proporciona perspectivas y recomendaciones basado en datos estudiantiles.
+**Asesor**: Persona que realiza una evaluación (maestro, estudiante, familia, o IA).
+
+**Asistente de IA**: Sistema inteligente que proporciona sugerencias de evaluación basadas en observaciones y contexto estudiantil.
+
+**AssessmentSession** (Sesión de Evaluación): Agrupación temporal de múltiples evaluaciones realizadas en la misma fecha/contexto.
+
+**AssessmentSource** (Fuente de Evaluación): Origen de la evaluación - puede ser 'teacher', 'student', 'family', o 'ai'.
+
+## C
+
+**Class** (Clase): Entidad que representa un grupo escolar específico (ej. "5° A") con estudiantes y maestro asociado.
+
+**ClassUser** (Usuario de Clase): Asociación entre un usuario y una clase con un rol específico.
+
+**ClassWithStudents** (Clase con Estudiantes): Clase expandida que incluye información de estudiantes y maestro.
 
 ## D
 
-**BDD (Desarrollo Impulsado por Comportamiento)**: Un enfoque de desarrollo de software que enfatiza la colaboración entre desarrolladores, QA y partes interesadas empresariales a través del uso de escenarios en lenguaje natural.
-
-## C
-
-**Clase**: Un grupo de estudiantes gestionados por un maestro dentro de la plataforma Mehmiro.
-
-## P
-
-**Panel de Control**: La interfaz principal que proporciona una visión general de datos estudiantiles, evaluaciones y perspectivas.
-
-## C
-
-**Característica**: Una funcionalidad o capacidad distintiva dentro de la plataforma Mehmiro.
-
-## L
-
-**Lección**: Contenido educativo o actividades asignadas a estudiantes.
-
-## M
-
-**Mehmiro**: El nombre de la plataforma educativa descrita en esta documentación.
-
-## I
-
-**Incorporación**: El proceso de configurar un nuevo maestro y su clase dentro de la plataforma.
-
-## P
-
-**Persona**: Una descripción detallada de un tipo de usuario, incluyendo sus metas, comportamientos y características.
+**Google Generative AI**: Servicio de IA utilizado para análisis de observaciones estudiantiles y generación de sugerencias de evaluación.
 
 ## E
 
-**Estudiante**: Un individuo aprendiz dentro de la plataforma educativa.
+**Estudiante**: Individuo aprendiz dentro de una clase específica, identificado por nombre, color de avatar y perfil personalizado.
 
-**Supabase**: La plataforma backend-como-servicio utilizada para almacenamiento de datos y autenticación.
+## I
+
+**Incorporaión Inteligente**: Proceso de configuración inicial donde la IA analiza información del maestro y sugiere configuración óptima.
+
+**Insight de IA**: Análisis contextual proporcionado por la IA considerando edad, grado, y tipo de personalidad del estudiante.
+
+## L
+
+**Lesson** (Lección): Planificación educativa con objetivos, materiales y actividades, integrable con datos de evaluación.
 
 ## M
 
-**Maestro**: Un educador que gestiona clases y evaluaciones estudiantiles dentro de la plataforma.
+**Mehmiro**: Plataforma de evaluación educativa impulsada por IA que ayuda a maestros a analizar y hacer seguimiento del progreso estudiantil.
+
+**Monitoreo Multi-Fuente**: Seguimiento que combina evaluaciones de maestro, autoevaluaciones estudiantiles, y evaluaciones familiares.
+
+## P
+
+**Panel de Control**: Interfaz principal con dashboard, clases, estudiantes, y análisis de progreso.
+
+**Personalidad**: Tipo de personalidad estudiantil opcional usado para personalización de sugerencias de IA.
+
+**Progreso Visual**: Representación gráfica del desarrollo estudiantil usando gráficos radar, lineales, y polares.
+
+## S
+
+**Student** (Estudiante): Entidad individual con nombre, color de avatar, clase asociada, y opcionalmente fecha de nacimiento y tipo de personalidad.
+
+**StudentWithAssessments** (Estudiante con Evaluaciones): Perfil expandido que incluye evaluaciones recientes y estadísticas.
+
+**Supabase**: Backend-como-servicio basado en PostgreSQL utilizado para almacenamiento de datos, autenticación, y APIs.
 
 ## V
 
-**Variable**: Un atributo o métrica medible utilizado en evaluaciones estudiantiles (ej., participación, comprensión, compromiso).
+**Variable** (AssessmentVariable): Atributo específico medible en evaluaciones (ej. "Participación en clase", "Comprensión lectora") con valores de diferentes fuentes.
+
+**Visualización Interactiva**: Gráficos dinámicos que muestran progreso estudiantil usando Chart.js con navegación temporal.

@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 # Mehmiro Documentation Hub
 
-Welcome to the centralized knowledge base for **Mehmiro**, the AI-powered educational assessment platform. Find everything you need based on your role.
+Welcome to the centralized knowledge base for **Mehmiro**, an AI-powered educational assessment platform that helps teachers streamline student evaluation using Google Generative AI analysis, track progress through visual analytics, and generate intelligent insights.
 
 ---
 
@@ -16,7 +16,7 @@ Welcome to the centralized knowledge base for **Mehmiro**, the AI-powered educat
 
 **For Teachers and Students**
 
-Learn how to use Mehmiro step by step, from initial setup to advanced features.
+Learn how to use Mehmiro's AI-powered assessment tools, from teacher onboarding to student progress tracking with interactive charts and AI-generated insights.
 
 - [🚀 Quick Start](/guia/getting-started/quick-start)
 - [👨‍🏫 Teacher Setup](/guia/getting-started/teacher-setup)
@@ -64,8 +64,10 @@ Technical documentation, system architecture, coding standards, and contribution
 - [🧪 Testing Strategy](/desarrolladores/standards/testing-strategy)
 
 ### Features
-- [📊 Student Assessment Insights](/desarrolladores/features/student-assessment-insights/student-assessment-insights-overview)
-- [👁️ Student Monitoring System](/desarrolladores/features/student-monitoring-system/student-monitoring-system-overview)
+- [🤖 AI Assessment Analysis](/desarrolladores/features/ai-assessment-analysis/ai-assessment-analysis-overview)
+- [📊 Multi-Source Assessment Tracking](/desarrolladores/features/multi-source-assessments/multi-source-assessments-overview)
+- [📈 Student Progress Visualization](/desarrolladores/features/progress-visualization/progress-visualization-overview)
+- [🎯 Assessment Session Management](/desarrolladores/features/assessment-sessions/assessment-sessions-overview)
 
 [**Explore Developer Hub →**](/desarrolladores/developer-intro)
 

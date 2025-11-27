@@ -8,121 +8,160 @@ description: Guía completa para maestros para configurar clases y evaluaciones 
 # Guía de Inicio para Maestros
 
 ## Objetivo
-Al final de esta guía, habrás creado exitosamente tu primera clase, configurado una evaluación, y aprendido cómo interpretar los resultados para apoyar a tus estudiantes.
+Al final de esta guía, habrás completado el proceso de incorporación inteligente con IA, configurado tu primera clase, y aprendido a usar las herramientas de evaluación asistida por IA para hacer seguimiento del progreso estudiantil.
 
 ## Prerrequisitos
 - Acceso a una cuenta de maestro de Mehmiro
-- Comprensión básica del sistema de información estudiantil de tu institución
-- 15-20 minutos para configuración inicial
+- Conocimiento básico de tus estudiantes y objetivos de evaluación
+- 10-15 minutos para configuración inicial
 
-## Paso 1: Accediendo a Tu Panel de Control
+## Paso 1: Iniciar el Proceso de Incorporación
 
-1. **Inicia sesión en Mehmiro** usando tus credenciales institucionales
-2. **Navega a tu panel de control de maestro** - este es tu centro de comando para todas las actividades relacionadas con clases
-3. **Familiarízate con el diseño**:
-   - Pestaña **Clases**: Resumen de todas tus clases
-   - Pestaña **Evaluaciones**: Gestionar y revisar evaluaciones
-   - Pestaña **Analíticas**: Análisis profundo de perspectivas estudiantiles
-   - Pestaña **Configuración**: Configurar tus preferencias
+1. **Accede a Mehmiro** y ve a la página de incorporación (/onboarding)
+2. **Completa la información del maestro**:
+   - Nombre completo
+   - Correo electrónico institucional
+   - Breve descripción de tu experiencia docente
+
+3. **Describe tu clase a la IA**:
+   - Grado y sección (ej. "5° A")
+   - Escuela o institución
+   - Materia principal o enfoque educativo
+   - Características especiales de tu clase
 
 :::tip
-Tu panel de control está personalizado basado en tu rol. Si no ves ciertas opciones, contacta a tu administrador para asegurar que tu cuenta tenga los permisos correctos.
+La IA analizará tu descripción para sugerir la configuración óptima y variables de evaluación relevantes para tu contexto educativo.
 :::
 
-## Paso 2: Creando Tu Primera Clase
+## Paso 2: Configurar Estudiantes
 
-1. **Haz clic en "Crear Nueva Clase"** desde tu panel de control
-2. **Ingresa detalles de la clase**:
-   - Nombre de la clase (ej., "Álgebra I - Período 3")
-   - Área de materia
-   - Nivel de grado
-   - Tamaño de clase (aproximado)
+1. **Agregar perfiles de estudiantes**:
+   - **Nombre completo** de cada estudiante
+   - **Color de avatar** (selección visual para identificación rápida)
+   - **Fecha de nacimiento** (opcional, para cálculos de edad)
+   - **Tipo de personalidad** (opcional, para personalización de IA)
 
-3. **Agrega estudiantes** usando uno de estos métodos:
-   - **Entrada manual**: Escribir nombres y correos de estudiantes
-   - **Importación masiva**: Subir archivo CSV desde tu sistema estudiantil
-   - **Integración**: Conectar al SIS de tu institución (si está disponible)
+2. **Revisar sugerencias de IA**:
+   - La IA puede sugerir características adicionales basadas en tu descripción de clase
+   - Ajusta o acepta las sugerencias según tu conocimiento de los estudiantes
 
-4. **Establecer horario de clase** (opcional pero recomendado):
-   - Horarios de reunión
-   - Duración
-   - Ubicación
+3. **Confirmar configuración**:
+   - Revisa la lista completa de estudiantes
+   - Verifica que toda la información sea correcta
 
-## Paso 3: Configurando Tu Primera Evaluación
+## Paso 3: Definir Variables de Evaluación
 
-1. **Navegar a la sección de Evaluación**
-2. **Elegir tipo de evaluación**:
-   - **Cuestionario**: Verificación rápida de conocimiento (5-10 preguntas)
-   - **Examen**: Evaluación integral (10-20 preguntas)
-   - **Práctica**: Ejercicios de construcción de habilidades sin calificación
+1. **Variables sugeridas por IA**:
+   - Basadas en tu descripción de clase y objetivos educativos
+   - Personalizadas para tu contexto específico
 
-3. **Configurar ajustes de evaluación**:
-   - Título y descripción
-   - Límite de tiempo (si aplica)
-   - Número de intentos permitidos
-   - Fecha y hora de vencimiento
+2. **Personalizar variables**:
+   - **Nombre**: Identificador claro (ej. "Participación en clase")
+   - **Descripción**: Explicación detallada de qué evalúa
+   - **Escala**: Rango numérico (típicamente 1-6)
 
-4. **Agregar preguntas**:
-   - Usar el banco de preguntas para configuración rápida
-   - Crear preguntas personalizadas
-   - Importar preguntas de evaluaciones anteriores
+3. **Variables adicionales**:
+   - Agrega variables específicas para tu contexto
+   - La IA puede sugerir variables relevantes
 
-## Paso 4: Monitoreando el Progreso Estudiantil
+## Paso 4: Realizar Primera Evaluación con IA
 
-1. **Lanzar evaluación** y compartir código de acceso con estudiantes
-2. **Monitorear progreso en tiempo real** en tu panel de control:
-   - Estudiantes que han comenzado
-   - Estado de completación
-   - Tiempo restante para evaluaciones cronometradas
+1. **Escribir observación**:
+   - Describe lo que observaste sobre un estudiante específico
+   - Incluye contexto, comportamientos, y situaciones específicas
 
-3. **Revisar resultados** inmediatamente después de completación:
-   - Puntuaciones individuales de estudiantes
-   - Tendencias de rendimiento a nivel de clase
-   - Áreas donde los estudiantes tuvieron dificultades
+2. **Análisis de IA**:
+   - La IA analiza tu observación
+   - Sugiere evaluaciones en variables relevantes
+   - Proporciona explicaciones para cada sugerencia
 
-## Paso 5: Usando Perspectivas de Evaluación
+3. **Revisar y ajustar**:
+   - Revisa las sugerencias de la IA
+   - Ajusta valores según tu experiencia
+   - Agrega comentarios explicativos
 
-1. **Acceder a analíticas detalladas** desde la pestaña de Analíticas
-2. **Revisar métricas clave**:
-   - **Rendimiento general de la clase**
-   - **Tendencias individuales de estudiantes**
-   - **Análisis a nivel de pregunta**
-   - **Dominio de objetivos de aprendizaje**
+4. **Guardar evaluación**:
+   - La evaluación se agrupa en una sesión de evaluación
+   - Se guarda con fecha y contexto para seguimiento temporal
 
-3. **Identificar elementos de acción**:
-   - Estudiantes que pueden necesitar apoyo adicional
-   - Temas que necesitan más instrucción en el aula
-   - Historias de éxito para celebrar
+## Paso 5: Ver Progreso Visual
 
-## Paso 6: Proporcionando Retroalimentación
+1. **Acceder al dashboard de estudiante**:
+   - Selecciona cualquier estudiante desde tu panel de control
+   - Ve gráficos interactivos de progreso
 
-1. **Revisar trabajo individual de estudiantes**
-2. **Usar herramientas de retroalimentación de Mehmiro**:
-   - Agregar comentarios escritos
-   - Grabar retroalimentación de audio
-   - Compartir recursos relevantes
+2. **Explorar tipos de visualización**:
+   - **Gráfico Radar**: Vista 360° de todas las variables
+   - **Gráfico Lineal**: Progreso a lo largo del tiempo
+   - **Gráfico Polar**: Distribución y tendencias
 
-3. **Proporcionar apoyo específico** basado en perspectivas:
-   - Programar sesiones uno a uno
-   - Crear actividades de grupos pequeños
-   - Asignar materiales de práctica específicos
+3. **Comparar perspectivas múltiples**:
+   - **Evaluaciones de Maestro**: Tu perspectiva profesional
+   - **Autoevaluaciones**: Cómo se ve el estudiante a sí mismo
+   - **Evaluaciones de Familia**: Perspectiva del hogar
+   - **Análisis de IA**: Insights inteligentes y sugerencias
+
+4. **Navegar por fechas**:
+   - Usa el selector de fechas para ver progreso histórico
+   - Compara sesiones de evaluación específicas
+   - Identifica tendencias y patrones
+
+## Paso 6: Usar Insights de IA
+
+1. **Análisis contextual**:
+   - La IA considera edad, grado, y tipo de personalidad
+   - Proporciona recomendaciones específicas para cada estudiante
+   - Sugiere intervenciones basadas en patrones
+
+2. **Sugerencias de mejora**:
+   - Identifica áreas donde el estudiante puede crecer
+   - Sugiere actividades y enfoques específicos
+   - Proporciona contexto para conversaciones con estudiantes
+
+3. **Seguimiento de confianza**:
+   - Cada sugerencia de IA incluye un nivel de confianza
+   - Revisa y valida las sugerencias con tu experiencia
+   - Ajusta según tu conocimiento del estudiante
+
+## Paso 7: Gestionar Múltiples Sesiones
+
+1. **Organización temporal**:
+   - Las evaluaciones se agrupan por sesión y fecha
+   - Rastrea el progreso de manera sistemática
+   - Compara rendimiento entre diferentes períodos
+
+2. **Evaluaciones continuas**:
+   - Realiza evaluaciones regulares (semanales, mensuales)
+   - Ve tendencias de desarrollo a largo plazo
+   - Identifica momentos clave de crecimiento
+
+3. **Integración de perspectivas**:
+   - Combina evaluaciones de maestro, estudiante, y familia
+   - Obtén una imagen completa del desarrollo estudiantil
+   - Usa la IA para analizar discrepancias entre perspectivas
 
 ## Próximos Pasos
 
-¡Felicitaciones! Has completado la configuración básica. Aquí hay algunos próximos pasos recomendados:
+¡Felicitaciones! Has completado la configuración básica con IA. Aquí hay algunos próximos pasos recomendados:
 
-- **Explorar características avanzadas**: [Guía de Perspectivas de Evaluación](/docs/user/guides/assessment-insights)
-- **Configurar reportes automatizados**: [Guía del Sistema de Monitoreo](/docs/user/guides/student-monitoring)
-- **Aprender sobre privacidad de datos**: [Guía de Datos Estudiantiles](/docs/user/guides/data-privacy)
+- **Explorar evaluaciones familiares**: [Guía de Evaluaciones Multi-Fuente](/docs/user/guides/multi-source-assessments)
+- **Configurar autoevaluaciones estudiantiles**: [Guía de Autoevaluación](/docs/user/guides/student-self-assessment)
+- **Aprender sobre gestión de sesiones**: [Guía de Sesiones de Evaluación](/docs/user/guides/assessment-sessions)
+- **Optimizar uso de IA**: [Guía de Análisis Avanzado](/docs/user/guides/advanced-ai-analysis)
 
 ## Solución de Problemas
 
 **Problemas Comunes:**
 
-- **Los estudiantes no pueden acceder a la evaluación**: Verificar que el código de acceso sea correcto y la evaluación esté publicada
-- **Faltan datos estudiantiles**: Verificar que la información estudiantil se importó correctamente
-- **La evaluación no se lanza**: Verificar tu conexión a internet y compatibilidad del navegador
+- **La IA no sugiere evaluaciones relevantes**: Proporciona observaciones más detalladas y específicas sobre el comportamiento estudiantil
+- **Los gráficos no muestran datos**: Verifica que hayas realizado al menos una evaluación y que los datos se hayan guardado correctamente
+- **No puedes cambiar entre perspectivas**: Asegúrate de estar en la vista correcta del estudiante y que las evaluaciones de esa fuente existan
+- **Las sugerencias de IA parecen incorrectas**: Revisa el nivel de confianza y valida con tu experiencia profesional
+
+:::tip
+La IA mejora con más datos y contexto. Mientras más evaluaciones realices y más detallado seas en tus observaciones, mejores serán las sugerencias.
+:::
 
 :::warning
-¿Necesitas ayuda? Contacta al administrador de Mehmiro o consulta las [Preguntas Frecuentes](/docs/user/guides/faq) para pasos detallados de solución de problemas.
+¿Necesitas ayuda? Consulta la documentación técnica en el [Centro de Desarrollo](/desarrolladores/developer-intro) o contacta al soporte técnico para problemas específicos de la plataforma.
 :::

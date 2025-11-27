@@ -6,7 +6,7 @@ sidebar_label: Data Model
 
 # Data Model & Database Schema
 
-Mehmiro relies on **Supabase (PostgreSQL)** to store assessment, lesson, and monitoring data while enforcing strict privacy guarantees. This page documents core entities, relationships, and operational guidelines.
+Mehmiro relies on **Supabase (PostgreSQL)** to store assessment, lesson, and class data while enforcing strict privacy guarantees. This page documents core entities based on the actual implementation, relationships, and operational guidelines.
 
 ## Core Entities
 
@@ -14,9 +14,9 @@ Mehmiro relies on **Supabase (PostgreSQL)** to store assessment, lesson, and mon
 
 - Authentication & authorization for teachers/administrators.
 - No student data stored in auth tables.
-- Sessions managed via NextAuth.
+- Sessions managed via NextAuth with Supabase adapter.
 
-### Teachers
+### Users (Application Layer)
 
 | Field      | Type      | Notes        |
 | ---------- | --------- | ------------ |
@@ -31,168 +31,182 @@ Mehmiro relies on **Supabase (PostgreSQL)** to store assessment, lesson, and mon
 | Field                   | Type      | Notes            |
 | ----------------------- | --------- | ---------------- |
 | id                      | UUID      | Primary key      |
-| teacher_id              | UUID      | FK → teachers.id |
 | name                    | text      | Class identifier |
-| grade                   | text      | Grade level      |
+| grade                   | number    | Grade level      |
 | section                 | text      | Class section    |
-| academic_year           | text      | Year label       |
+| year                    | number    | Academic year    |
+| school                  | text/null | School name      |
 | created_at / updated_at | timestamp | Auto-managed     |
 
 ### Students
 
-| Field                   | Type      | Notes                       |
-| ----------------------- | --------- | --------------------------- |
-| id                      | UUID      | Primary key                 |
-| class_id                | UUID      | FK → classes.id             |
-| alias                   | text      | Privacy-friendly identifier |
-| avatar_color            | text      | UI personalization          |
-| personality_type        | text      | Learning style              |
-| date_of_birth           | date      | For age calculations        |
-| created_at / updated_at | timestamp | Auto-managed                |
-
-> **Privacy-first:** No personal identifiers are stored; aliases are the only student-facing reference.
-
-### Assessment Variables
-
-- Per-class variable definitions (e.g., “Participation”).
-- `scale_min` / `scale_max` define rubric bounds.
-- `is_active` toggles availability without loss of history.
+| Field                   | Type         | Notes                       |
+| ----------------------- | ------------ | --------------------------- |
+| id                      | UUID         | Primary key                 |
+| class_id                | UUID         | FK → classes.id             |
+| name                    | text         | Student name                |
+| avatar_color            | text         | UI personalization          |
+| personality_type        | text/null    | Personality classification  |
+| dob                     | date/null    | Date of birth               |
+| created_at / updated_at | timestamp    | Auto-managed                |
 
 ### Assessment Sessions
 
-- Temporal grouping (lesson, date, evaluation window).
-- `created_by` tracks teacher author.
+| Field               | Type        | Notes                                |
+| ------------------- | ----------- | ------------------------------------ |
+| id                  | UUID        | Primary key                          |
+| student_id          | UUID        | FK → students.id                     |
+| assessor_id         | text        | Assessor identifier                  |
+| class_id            | UUID        | FK → classes.id                      |
+| session_date        | date        | Date of assessment session           |
+| assessment_source   | enum        | 'teacher'/'student'/'family'/'ai'    |
+| assessor_observation| text/null   | Teacher notes                        |
+| ai_prompt           | text/null   | AI analysis prompt                   |
+| ai_model            | text/null   | AI model used                        |
+| ai_temperature      | number/null | AI temperature setting               |
+| ai_tokens_used      | number/null | Token consumption                    |
+| ai_response_time    | number/null | AI response time                     |
+| ai_analysis_context | text/null   | AI context analysis                  |
+| ai_confidence       | number/null | AI confidence score                  |
+| ai_limitations      | text/null   | AI limitations notice                |
+| created_at / updated_at | timestamp | Auto-managed                     |
 
 ### Assessments
 
-| Foreign Keys                            | Description              |
-| --------------------------------------- | ------------------------ |
-| `student_id` → students.id              | Student under evaluation |
-| `variable_id` → assessment_variables.id | Metric being scored      |
-| `session_id` → assessment_sessions.id   | Session context          |
+| Field              | Type        | Description                       |
+| ------------------ | ----------- | --------------------------------- |
+| id                 | UUID        | Primary key                       |
+| session_id         | UUID/null   | FK → assessment_sessions.id       |
+| student_id         | UUID        | FK → students.id                  |
+| assessor_id        | text        | Assessor identifier               |
+| class_id           | UUID        | FK → classes.id                   |
+| variable_id        | UUID        | FK → assessment_variables.id      |
+| value              | number      | Assessment score                  |
+| comments           | text/null   | Additional notes                  |
+| assessment_source  | enum        | 'teacher'/'student'/'family'/'ai' |
+| ai_suggestion_id   | UUID/null   | FK → ai_suggestions.id            |
+| created_at / updated_at | timestamp | Auto-managed                 |
 
-Additional columns:
+### Assessment Variables
 
-- `value` numeric: Recorded score.
-- `assessor_type` enum: `'teacher' | 'student' | 'family' | 'ai'`.
-- `comments` text: Contextual notes.
-- `confidence_score` numeric: AI certainty when applicable.
+| Field                   | Type      | Notes                                |
+| ----------------------- | --------- | ------------------------------------ |
+| id                      | UUID      | Primary key                          |
+| class_id                | UUID      | FK → classes.id                      |
+| name                    | text      | Variable name                        |
+| description             | text      | Variable description                 |
+| scale_min               | number    | Minimum scale value (typically 1)    |
+| scale_max               | number    | Maximum scale value (typically 6)    |
+| is_active               | boolean   | Variable availability status         |
+| created_at / updated_at | timestamp | Auto-managed                         |
 
 ### AI Suggestions
 
-Captures AI-generated feedback linked to a specific assessment:
-
-- `suggestion_type` enum (`improvement`, `intervention`, `celebration`).
-- `content`, `confidence_score`, `is_read`.
+| Field              | Type      | Notes                                  |
+| ------------------ | --------- | -------------------------------------- |
+| id                 | UUID      | Primary key                            |
+| prompt             | text      | AI analysis prompt                     |
+| context_analysis   | text      | AI contextual analysis                 |
+| confidence         | number    | AI confidence score (0-1)              |
+| limitations        | text      | AI limitations and constraints         |
+| created_at         | timestamp | Creation timestamp                     |
 
 ### Lessons
 
-Structured lesson planning entity:
-
-- `objectives`, `materials`, `activities` stored as JSON arrays.
-- `notes` for qualitative context.
-- `created_by` records authoring teacher.
-
-## Student Monitoring (Planned Expansion)
-
-### student_monitoring_status
-
-Tracks traffic-light priority per student/class:
-
-- `priority_flag`: `'red' | 'yellow' | 'green'`.
-- Component scores (`observation`, `trend`, `homework`).
-- `diagnosis_summary` with latest AI summary.
-- `analyzed_at` timestamp.
-
-### monitoring_diagnoses
-
-Historical AI diagnoses:
-
-- `patterns`: JSON describing detected trends.
-- `interventions`: JSON array of recommended actions.
-- `confidence`, `ai_model`, token usage metadata.
-
-### monitoring_config
-
-Singleton configuration table:
-
-- Scheduling (`analysis_time`, `timezone`, `enabled`).
-- Weights (`weight_observation`, `weight_trend`, `weight_homework`).
-- Thresholds (`red_threshold`, `yellow_threshold`).
-- Row always keyed to `00000000-0000-0000-0000-000000000001`.
+| Field                   | Type         | Notes                    |
+| ----------------------- | ------------ | ------------------------ |
+| id                      | UUID         | Primary key              |
+| class_id                | UUID/null    | FK → classes.id          |
+| date                    | date         | Lesson date              |
+| title                   | text         | Lesson title             |
+| objectives              | json         | Lesson objectives array  |
+| materials               | json         | Materials array          |
+| activities              | json         | Activities array         |
+| notes                   | text/null    | Additional notes         |
+| created_at / updated_at | timestamp    | Auto-managed             |
 
 ## Entity Relationship Diagram
 
 ```mermaid
 erDiagram
-    teachers ||--o{ classes : creates
+    users ||--o{ classes : creates
     classes ||--o{ students : contains
     classes ||--o{ assessment_variables : defines
     classes ||--o{ assessment_sessions : hosts
     classes ||--o{ lessons : plans
 
+    students ||--o{ assessment_sessions : receives
     students ||--o{ assessments : receives
-    assessment_variables ||--o{ assessments : measures
     assessment_sessions ||--o{ assessments : groups
-
+    assessment_variables ||--o{ assessments : measures
     assessments ||--o{ ai_suggestions : generates
 
-    students ||--o{ student_monitoring_status : monitors
-    student_monitoring_status ||--o{ monitoring_diagnoses : records
+    class_user {
+        uuid class_id
+        uuid user_id
+        text role
+    }
 ```
 
 ## Design Principles
 
 ### Privacy-First
 
-- No personal student data stored.
-- Teachers fully control class data.
-- Family access (future) remains opt-in and scoped.
+- Student data protected with minimal personal identifiers.
+- Teachers fully control class data via Row Level Security.
+- Family access remains opt-in and scoped.
 - Data minimization enforced across tables.
 
-### Flexible Assessments
+### Multi-Source Assessments
 
-- Multiple assessor sources supported.
-- Classes create their own variables/scales.
-- Sessions enable chronological reporting.
-- Comments/confidence extend qualitative context.
+- Support for teacher, student, family, and AI assessment sources.
+- Each assessment tracks its source for comparative analysis.
+- AI assessments include confidence scores and limitation notices.
+- Session-based grouping enables temporal analysis.
 
 ### Real-Time Ready
 
-- Supabase subscriptions power live dashboards.
+- Supabase subscriptions power live dashboards and chart updates.
 - Optimistic updates with conflict detection for collaborative editing.
+- Real-time synchronization across client components.
 
 ### Scalability
 
-- Strategic indexes (see below) keep queries efficient.
-- Potential per-class partitioning for large deployments.
+- Strategic indexes on frequently queried columns.
+- UUID primary keys for distributed system compatibility.
+- JSON fields for flexible lesson content and AI metadata.
 - Caching at service layer for hot queries.
-- Archive strategy planned for historical data.
 
 ## Index & Performance Strategy
 
 ```sql
+-- Student queries
+CREATE INDEX idx_students_class_id ON students(class_id);
+
 -- Assessment queries
-CREATE INDEX idx_assessments_student_date ON assessments(student_id, created_at DESC);
-CREATE INDEX idx_assessments_session ON assessments(session_id);
-CREATE INDEX idx_assessments_variable ON assessments(variable_id);
+CREATE INDEX idx_assessments_student_id ON assessments(student_id);
+CREATE INDEX idx_assessments_session_id ON assessments(session_id);
+CREATE INDEX idx_assessments_variable_id ON assessments(variable_id);
+CREATE INDEX idx_assessments_source ON assessments(assessment_source);
 
--- Sessions
-CREATE INDEX idx_sessions_class_date ON assessment_sessions(class_id, date DESC);
+-- Session queries
+CREATE INDEX idx_sessions_student_id ON assessment_sessions(student_id);
+CREATE INDEX idx_sessions_class_id ON assessment_sessions(class_id);
+CREATE INDEX idx_sessions_date ON assessment_sessions(session_date);
 
--- Variables
-CREATE INDEX idx_variables_class_active ON assessment_variables(class_id, is_active);
+-- Variable queries
+CREATE INDEX idx_variables_class_id ON assessment_variables(class_id);
+CREATE INDEX idx_variables_active ON assessment_variables(is_active);
 
--- Monitoring
-CREATE INDEX idx_monitoring_priority ON student_monitoring_status(class_id, priority_flag, priority_score DESC);
-CREATE INDEX idx_monitoring_analyzed ON student_monitoring_status(analyzed_at);
+-- AI suggestions
+CREATE INDEX idx_ai_suggestions_confidence ON ai_suggestions(confidence);
 ```
 
 All primary keys and foreign keys automatically carry supporting indexes.
 
 ## Row Level Security (RLS)
 
-Example policy:
+Example policy for student data:
 
 ```sql
 ALTER TABLE students ENABLE ROW LEVEL SECURITY;
@@ -202,12 +216,15 @@ ON students
 FOR ALL
 USING (
   class_id IN (
-    SELECT id FROM classes WHERE teacher_id = auth.uid()
+    SELECT id FROM classes WHERE id IN (
+      SELECT class_id FROM class_users 
+      WHERE user_id = auth.uid()
+    )
   )
 );
 ```
 
-- Teachers limited to their classes.
+- Teachers limited to their classes via class_users association.
 - Assessments/variables/sessions inherit class-based isolation.
 - Foreign key constraints guarantee referential integrity.
 
@@ -223,12 +240,14 @@ USING (
 - Prefer backward-compatible adjustments.
 - Use transformation scripts for complex changes.
 - Validate post-migration data health before releasing.
+- Monitor AI token usage and API costs during transitions.
 
 ## Monitoring & Maintenance
 
-- **Health Metrics**: Query performance, index usage, table growth.
+- **Health Metrics**: Query performance, index usage, table growth, AI API costs.
 - **Backups**: Automated daily backups with point-in-time recovery; stored cross-region.
-- **Retention**: Assessments retained indefinitely; AI suggestions archived after two years; audit logs persisted per compliance requirements.
+- **Retention**: Assessments retained indefinitely; AI metadata archived after two years; audit logs persisted per compliance requirements.
+- **AI Monitoring**: Track token usage, response times, and confidence scores for cost optimization.
 
 ---
 
@@ -237,4 +256,4 @@ USING (
 - [System Architecture](system-architecture.md)
 - [Performance & Security](performance-security.md)
 - [Feature Lifecycle](../processes/feature-lifecycle.md)
-- Supabase schema (`supabase/schema.sql`) — source of truth for migrations and generated types
+- Supabase schema (`supabase/migrations/`) — source of truth for migrations and generated types

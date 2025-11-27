@@ -9,72 +9,78 @@ description: Comienza con Mehmiro en minutos - una visión general rápida para 
 
 ## ¡Bienvenido a Mehmiro!
 
-Esta guía te tendrá funcionando con Mehmiro en solo unos minutos. Ya seas un maestro o estudiante, hemos hecho el proceso simple e intuitivo.
+Esta guía te tendrá funcionando con Mehmiro en solo unos minutos. Mehmiro es una plataforma de evaluación educativa impulsada por IA que ayuda a los maestros a analizar observaciones estudiantiles usando Google Generative AI y hacer seguimiento del progreso con visualizaciones interactivas.
 
-## Para Maestros (configuración de 2 minutos)
+## Para Maestros (configuración de 5 minutos)
 
 ### Lo que lograrás:
-- Crear tu primera clase
-- Configurar una evaluación simple
-- Ver tus primeras perspectivas
+- Completar el proceso de incorporación con IA
+- Configurar tu primera clase con estudiantes
+- Realizar tu primera evaluación asistida por IA
+- Ver el progreso estudiantil en gráficos visuales
 
-### El Proceso de 3 Pasos:
+### El Proceso de 4 Pasos:
 
-1. **Crear Clase** (30 segundos)
-   - Haz clic en "Nueva Clase" desde tu panel de control
-   - Completa los detalles básicos (nombre, materia, nivel de grado)
-   - Agrega estudiantes manualmente o importa desde tu sistema
+1. **Incorporación Inteligente** (2 minutos)
+   - Completa la introducción de maestro (nombre, correo)
+   - Describe tu clase a la IA (grado, sección, escuela)
+   - La IA analizará y sugerirá la configuración óptima
 
-2. **Construir Evaluación** (60 segundos)
-   - Elige la plantilla "Evaluación Rápida"
-   - Selecciona 5-10 preguntas del banco incorporado
-   - Establece límite de tiempo y fecha de vencimiento
+2. **Configuración de Estudiantes** (2 minutos)
+   - Agrega perfiles de estudiantes (nombres, colores de avatar)
+   - Define variables de evaluación personalizadas
+   - La IA puede sugerir variables basadas en tu descripción
 
-3. **Lanzar y Monitorear** (30 segundos)
-   - Comparte el código de acceso con estudiantes
-   - Observa el progreso en tiempo real mientras trabajan
-   - Obtén resultados instantáneos y perspectivas
+3. **Primera Evaluación con IA** (1 minuto)
+   - Escribe una observación sobre un estudiante
+   - La IA analiza y sugiere evaluaciones específicas
+   - Revisa y ajusta las sugerencias de la IA
 
-**Resultado**: En menos de 3 minutos, has creado tu primera evaluación basada en datos con retroalimentación instantánea para estudiantes y perspectivas accionables para ti.
+4. **Visualización de Progreso** (30 segundos)
+   - Ve gráficos radar, lineales y polares del progreso
+   - Compara evaluaciones de maestro, estudiante y familia
+   - Identifica tendencias y áreas de mejora
+
+**Resultado**: En menos de 5 minutos, has configurado un sistema de evaluación inteligente con IA que proporciona análisis profundo y seguimiento visual del progreso estudiantil.
 
 ---
 
 ## Para Estudiantes (configuración de 1 minuto)
 
 ### Lo que lograrás:
-- Acceder a tu primera evaluación
-- Entender cómo usar la retroalimentación
-- Rastrear tu progreso de aprendizaje
+- Acceder a tu evaluación personalizada
+- Realizar autoevaluaciones con asistencia de IA
+- Ver tu progreso en gráficos visuales interactivos
 
 ### El Proceso de 2 Pasos:
 
 1. **Obtener Acceso** (30 segundos)
-   - Ingresa el código de acceso de tu maestro
+   - Accede a través del enlace de tu maestro
    - Inicia sesión con tus credenciales de estudiante
-   - Completa tu perfil
+   - Completa tu perfil con información básica
 
-2. **Tomar Evaluación** (30 segundos)
-   - Encuentra tu evaluación en el panel de control
-   - Haz clic en "Iniciar Evaluación"
-   - Responde preguntas y envía
+2. **Realizar Autoevaluación** (30 segundos)
+   - Selecciona tus variables de evaluación
+   - Escribe observaciones sobre tu propio progreso
+   - Recibe análisis de IA y sugerencias personalizadas
 
-**Resultado**: En menos de un minuto, has completado tu primera evaluación de Mehmiro y puedes ver inmediatamente tus resultados y retroalimentación personalizada.
+**Resultado**: En menos de un minuto, has completado tu primera autoevaluación asistida por IA y puedes ver inmediatamente tu progreso en gráficos visuales personalizados.
 
 ---
 
 ## Beneficios Clave Que Notarás
 
 ### Para Maestros:
-- ✅ **Perspectivas instantáneas** - Ve el rendimiento de clase y necesidades individuales de estudiantes inmediatamente
-- ✅ **Tiempo de calificación reducido** - Calificación automatizada con retroalimentación detallada
-- ✅ **Mejores intervenciones** - Identifica estudiantes que luchan antes de que sea demasiado tarde
-- ✅ **Decisiones basadas en datos** - Toma decisiones informadas sobre instrucción y apoyo
+- ✅ **Análisis de IA inteligente** - Google Generative AI analiza observaciones y sugiere evaluaciones precisas
+- ✅ **Evaluaciones multi-fuente** - Compara evaluaciones de maestro, estudiante y familia para perspectivas completas
+- ✅ **Visualizaciones interactivas** - Gráficos radar, lineales y polares muestran progreso de manera clara
+- ✅ **Sesiones de evaluación organizadas** - Agrupa múltiples evaluaciones por fecha y contexto
 
 ### Para Estudiantes:
-- ✅ **Retroalimentación inmediata** - Entiende lo que hiciste bien y mal inmediatamente
-- ✅ **Orientación personalizada** - Obtén recomendaciones específicas para mejora
-- ✅ **Seguimiento de progreso** - Ve tu viaje de aprendizaje a lo largo del tiempo
-- ✅ **Ansiedad reducida** - Practica con evaluaciones formativas de bajo riesgo
+- ✅ **Autoevaluación asistida por IA** - Recibe análisis inteligente de tus propias observaciones
+- ✅ **Progreso visual** - Ve tu desarrollo en gráficos interactivos y fáciles de entender
+- ✅ **Múltiples perspectivas** - Compara tu autoevaluación con evaluaciones de maestro y familia
+- ✅ **Retroalimentación contextual** - Obtén sugerencias específicas basadas en tu perfil y progreso
 
 ---
 
@@ -83,14 +89,14 @@ Esta guía te tendrá funcionando con Mehmiro en solo unos minutos. Ya seas un m
 ### Después de tu primera evaluación:
 
 **Maestros:**
-- Explora [Perspectivas Avanzadas de Evaluación](/docs/user/guides/assessment-insights)
-- Configura [Monitoreo Automatizado](/docs/user/guides/student-monitoring)
-- Aprende sobre [Privacidad de Datos](/docs/user/guides/data-privacy)
+- Explora [Análisis Avanzado con IA](/docs/user/guides/ai-assessment-analysis)
+- Configura [Evaluaciones de Familia](/docs/user/guides/family-assessments)
+- Aprende sobre [Gestión de Sesiones](/docs/user/guides/assessment-sessions)
 
 **Estudiantes:**
-- Revisa [Entendiendo Tus Resultados](/docs/user/guides/student-results)
-- Explora [Seguimiento de Progreso](/docs/user/guides/progress-tracking)
-- Encuentra [Recursos de Estudio](/docs/user/guides/study-resources)
+- Revisa [Tu Panel de Progreso](/docs/user/guides/student-dashboard)
+- Explora [Autoevaluación Detallada](/docs/user/guides/detailed-self-assessment)
+- Encuentra [Recursos de Desarrollo](/docs/user/guides/development-resources)
 
 ---
 

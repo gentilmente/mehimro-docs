@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 # Centro de Documentación Mehmiro
 
-Bienvenido a la base de conocimiento centralizada de **Mehmiro**, la plataforma de evaluación educativa impulsada por IA. Aquí encontrarás todo lo que necesitas según tu rol.
+Bienvenido a la base de conocimiento centralizada de **Mehmiro**, una plataforma de evaluación educativa impulsada por IA que ayuda a los docentes a optimizar la evaluación estudiantil usando análisis con Google Generative AI, hacer seguimiento del progreso mediante analíticas visuales, y generar insights inteligentes.
 
 ---
 
@@ -16,7 +16,7 @@ Bienvenido a la base de conocimiento centralizada de **Mehmiro**, la plataforma 
 
 **Para Docentes y Estudiantes**
 
-Aprende a usar Mehmiro paso a paso, desde la configuración inicial hasta las funcionalidades avanzadas.
+Aprende a usar las herramientas de evaluación con IA de Mehmiro, desde la incorporación de docentes hasta el seguimiento del progreso estudiantil con gráficos interactivos y insights generados por IA.
 
 - [🚀 Inicio Rápido](/guia/getting-started/quick-start)
 - [👨‍🏫 Configuración para Docentes](/guia/getting-started/teacher-setup)
@@ -64,8 +64,10 @@ Documentación técnica, arquitectura del sistema, estándares de código y guí
 - [🧪 Estrategia de Pruebas](/desarrolladores/standards/testing-strategy)
 
 ### Características
-- [📊 Perspectivas de Evaluación Estudiantil](/desarrolladores/features/student-assessment-insights/student-assessment-insights-overview)
-- [👁️ Sistema de Monitoreo Estudiantil](/desarrolladores/features/student-monitoring-system/student-monitoring-system-overview)
+- [🤖 Análisis de Evaluación con IA](/desarrolladores/features/ai-assessment-analysis/ai-assessment-analysis-overview)
+- [📊 Seguimiento de Evaluaciones Multi-Fuente](/desarrolladores/features/multi-source-assessments/multi-source-assessments-overview)
+- [📈 Visualización del Progreso Estudiantil](/desarrolladores/features/progress-visualization/progress-visualization-overview)
+- [🎯 Gestión de Sesiones de Evaluación](/desarrolladores/features/assessment-sessions/assessment-sessions-overview)
 
 [**Explorar Centro de Desarrollo →**](/desarrolladores/developer-intro)
 

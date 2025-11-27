@@ -40,7 +40,7 @@ graph TD
     Services --> AI
 ```
 
-La plataforma usa **Next.js 15 (App Router)** con React Server Components para experiencias renderizadas en servidor y Client Components para paneles interactivos. La lógica de negocio reside en una capa de servicios bajo `app/lib/services`, con Supabase proporcionando base de datos, autenticación y capacidades en tiempo real. Las características de IA se integran a través de APIs de Google Gemini.
+La plataforma usa **Next.js 15 (App Router)** con React Server Components para experiencias renderizadas en servidor y Client Components para paneles interactivos. La lógica de negocio reside en una capa de servicios bajo `app/lib/services`, con Supabase proporcionando base de datos, autenticación y capacidades en tiempo real. Las características de IA se integran a través de **Google Generative AI** (`@google/generative-ai` package).
 
 ## Estructura de Directorio de la Aplicación
 
@@ -76,15 +76,17 @@ app/
 
 | Servicio                      | Responsabilidad                                                                   |
 | ----------------------------- | --------------------------------------------------------------------------------- |
-| `student-service.ts`          | Obtiene perfiles estudiantiles, agrega historial de evaluaciones, aplica políticas RLS. |
-| `assessment-service.ts`       | CRUD para sesiones de evaluación, variables y resultados.                         |
-| `lesson-service.ts`           | Gestiona creación de lecciones, personalización y programación.                   |
-| `assessment-ai.ts`            | Encapsula generación de prompts IA y análisis de respuestas para perspectivas.    |
-| `assessment-insights-service.ts` | Calcula tendencias, comparaciones y resúmenes impulsados por IA.                 |
-| `class-service.ts`            | Maneja configuración a nivel de clase, variables y gestión de listas de estudiantes.|
-| `onboarding-service.ts`       | Orquesta flujos de trabajo de incorporación de profesores y persistencia.         |
+| `student-service.ts`          | CRUD para perfiles estudiantiles, historial de evaluaciones, estadísticas.        |
+| `assessment-service.ts`       | CRUD para sesiones y evaluaciones, análisis multi-fuente, agrupación temporal.    |
+| `lesson-service.ts`           | Gestión de lecciones, sugerencias de IA, integración con evaluaciones.            |
+| `assessment-ai.ts`            | Integración con Google Generative AI para análisis de observaciones estudiantiles. |
+| `assessment-insights-service.ts` | Cálculo de insights, tendencias y análisis de progreso estudiantil.              |
+| `class-service.ts`            | Gestión de clases, variables de evaluación, configuración de clases.              |
+| `teacher-service.ts`          | Operaciones relacionadas con docentes y autenticación.                            |
+| `variable-service.ts`         | Gestión de variables de evaluación y escalas de medición.                         |
+| `onboarding-service.ts`       | Proceso de incorporación inteligente con análisis de IA.                          |
 
-Los servicios exponen métodos tipados consumidos por rutas API y hooks. Centralizan efectos secundarios (llamadas Supabase, solicitudes IA, caché).
+Los servicios exponen métodos tipados consumidos por rutas API y hooks personalizados. Centralizan efectos secundarios (llamadas Supabase, solicitudes IA, validación).
 
 ## Flujo de Datos
 
